@@ -2,7 +2,7 @@
 title: Taehoon Park
 email: gksdidg@hanyang.ac.kr
 url: niai-lab.github.io
-description: "Hanyang University Graph-ML, Deep Generative Model and Computational Neuroscience Journal Club"
+description: "NIAI Lab Machine Learning Journal Club"
 github_username: niai-lab
 meta_author:
 
@@ -45,6 +45,6 @@ plugins:
   - jekyll-seo-tag
 
 # Other variables
-roomH: R&D Building(산학기술관) 702-1
+roomH: R&D Building(산학기술관), 702-1
 roomHurl: https://goo.gl/maps/KMXYy2EdDYsJjMt19
 roomNurl: http://naver.me/GXE3H5bq
