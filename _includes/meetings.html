@@ -54,7 +54,11 @@
         {% if entry.pdf == "None" %}
           (<a href="{{entry.url}}">link</a>)
         {% else %}
-          (<a href="{{entry.url}}">link</a>, <a href="{{entry.pdf}}">pdf</a>, <a href="{{entry.zoom}}">zoom</a>, <a href="{{entry.video}}">video</a>)</p>
+          (<a href="{{entry.url}}">link</a>,
+           <a href="{{entry.video}}">video</a>)
+           <!-- <a href="{{entry.pdf}}">pdf</a>,
+            <a href="{{entry.zoom}}">zoom</a>, -->
+          </p>
           <a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)">
             <i>summary</i>
             </a><div style="DISPLAY: none">
