@@ -3,7 +3,7 @@
   paper: "Learning Neural Causal Models from Unknown Interventions"
   authors: Ke et al.
   url: https://arxiv.org/abs/1910.01075
-  <!-- pdf: /GraphML-JC/pdf/Learning_Neural_Causal_Models_from_Unknown_Interventions.pdf -->
+  pdf: /GraphML-JC/pdf/Learning_Neural_Causal_Models_from_Unknown_Interventions.pdf
   video: https://youtu.be/fCqoPeP5WRU
   location: "Zoom meetings"
   summary: >
@@ -21,7 +21,7 @@
   paper: "Contrastive Self-supervised Learning for Graph Classification"
   authors: Zeng et al.
   url: https://arxiv.org/abs/2009.05923
-  <!-- pdf: /GraphML-JC/pdf/Contrastive_self-supervised_Learning_for_GC.pdf -->
+  pdf: /GraphML-JC/pdf/Contrastive_self-supervised_Learning_for_GC.pdf
   video: 
   location: "Zoom meetings"
   summary: "Test2"
