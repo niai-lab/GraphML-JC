@@ -6,7 +6,15 @@
   pdf: /GraphML-JC/pdf/Learning_Neural_Causal_Models_from_Unknown_Interventions.pdf
   zoom: https://zoom.us/j/92336352299?pwd=b0JwWnByTDRIamhpcktYdGx0aGxkZz09
   location: "Zoom meetings"
-  summary: "Test1"
+  summary: >
+   이번 논문은 system을 contional probability로 modeling 하는 경우에서 graph sturcture recovery에 관한 내용입니다. 
+   사용된 graph의 structure는 DAG(Directed Acyclic Graph)입니다. 
+   Modeling을 할 때 기존의 system에서 관측가능한 data인 observational data 뿐만 아니라, system에서 일어날 것 같이 않은 
+   condition의 값을 할당한 data인 interventional data까지 training 단계에서 사용할 경우 sturcture recovery가 더 좋은 결과를 낸다는 것이 주요내용입니다. 
+   또한 모든 실험에서 Intervention을 apply할 때 sparse하게 하나의 node에만 intervention을 사용했습니다. 
+   Intervention을 사용할 경우 논문의 모든 dataset(synthetic/real)에서 best performance를 보였으며, 
+   어떠한 node에서 intervention이 일어났는 지 모르는 경우, 이를 inference하는 방법도 제시하였으며 괜찮은 성능을 가집니다. 
+   Intervention의 경우 data의 perturbation과 동일한 역할을 하는것으로 보여집니다.
 
 - presenter: Donghee Kang
   date: 10.22.2021
