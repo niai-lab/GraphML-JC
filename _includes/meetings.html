@@ -46,11 +46,7 @@
         {% if entry.pdf == "None" %}
           <p><i>{{entry.paper}}</i>
         {% else %}
-          <p><i>{{entry.paper}}, <a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)">
-            summary, 
-            </a><div style="DISPLAY: none">
-            {{entry.summary}}
-            </div></i>
+          <p><i>{{entry.paper}}, </i>
         {% endif %}
         {{entry.authors}}
       {% endif %}
