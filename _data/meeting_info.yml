@@ -5,6 +5,7 @@
   url: https://arxiv.org/abs/1910.01075
   pdf: /GraphML-JC/pdf/Learning_Neural_Causal_Models_from_Unknown_Interventions.pdf
   zoom: https://zoom.us/j/92336352299?pwd=b0JwWnByTDRIamhpcktYdGx0aGxkZz09
+  video: 
   location: "Zoom meetings"
   summary: >
    이번 논문은 system을 contional probability로 modeling 하는 경우에서 graph sturcture recovery에 관한 내용입니다. 
@@ -23,5 +24,6 @@
   url: https://arxiv.org/abs/2009.05923
   pdf: /GraphML-JC/pdf/Contrastive_self-supervised_Learning_for_GC.pdf
   zoom: https://zoom.us/j/92336352299?pwd=b0JwWnByTDRIamhpcktYdGx0aGxkZz09
+  video: 
   location: "Zoom meetings"
   summary: "Test2"
