@@ -47,11 +47,6 @@
           <p><i>{{entry.paper}}</i>
         {% else %}
           <p><i>{{entry.paper}}, </i>
-          <a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)">
-              <i>summary</i>
-              </a><div style="DISPLAY: none">
-              {{entry.summary}}
-              </div>
         {% endif %}
         {{entry.authors}}
       {% endif %}
@@ -59,7 +54,11 @@
         {% if entry.pdf == "None" %}
           (<a href="{{entry.url}}">link</a>)
         {% else %}
-          (<a href="{{entry.url}}">link</a>, <a href="{{entry.pdf}}">pdf</a>, <a href="{{entry.zoom}}">zoom</a>)
+          (<a href="{{entry.url}}">link</a>, <a href="{{entry.pdf}}">pdf</a>, <a href="{{entry.zoom}}">zoom</a>, <a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)">
+            <i>summary</i>
+            </a><div style="DISPLAY: none">
+            {{entry.summary}}
+            </div>)
         {% endif %}
       {% endunless %}
     </td>
