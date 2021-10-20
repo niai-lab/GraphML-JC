@@ -6,3 +6,12 @@
   pdf: /GraphML-JC/pdf/Learning_Neural_Causal_Models_from_Unknown_Interventions.pdf
   zoom: https://zoom.us/j/92336352299?pwd=b0JwWnByTDRIamhpcktYdGx0aGxkZz09
   location: "Zoom meetings"
+
+  - presenter: Donghee Kang
+  date: 10.22.2021
+  paper: "Learning Neural Causal Models from Unknown Interventions"
+  authors: Rosemary Ke
+  url: https://arxiv.org/abs/2009.05923
+  pdf: /GraphML-JC/pdf/Contrastive_self-supervised_Learning_for_GC.pdf
+  zoom: https://zoom.us/j/92336352299?pwd=b0JwWnByTDRIamhpcktYdGx0aGxkZz09
+  location: "Zoom meetings"
