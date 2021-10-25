@@ -25,3 +25,13 @@
   video: https://youtu.be/-VD3UeHTqkU
   location: "Zoom meetings"
   summary: "contrastive self supervised learning 방법을 이용해 graph classification이 발생할 수 있는 overfitting을 예방하려는 방법을 제안하였습니다. augmentation된 그래프들이 같은 그래프에서 나왓는지 아닌지를 prediction하는 모델을 학습한 후 fine-tuning을 통해 classification을 수행하는 방법과 prediction과 classification을 동시에 수행 하며 regularization을 동시에 수행하는 두가지 방법이 있습니다. 두 방법 모두 단순히 classification만을 수행하는 모델보다 좋은 성능을 보였고 overfitting문제를 더 잘 해결 할 수 있었습니다."
+
+- presenter: Hyunmeok Park
+  date: 10.29.2021
+  paper: "Scaling Graph-based Deep Learning models to larger networks"
+  authors: Ferriol-Galmés et al.
+  url: https://arxiv.org/abs/2110.01261
+  pdf: ""
+  video: ""
+  location: "Zoom meetings"
+  summary: ""
