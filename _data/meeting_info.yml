@@ -36,22 +36,22 @@
   location: "Zoom meetings"
   summary:
   
-#   - presenter: Juhyun Kim
-#   date: 11.05.2021
-#   paper: "TBA"
-#   authors: 
-#   url: https://arxiv.org/abs/
-#   pdf: 
-#   video:
-#   location: "Zoom meetings"
-#   summary:
+  - presenter: Juhyeon Kim
+  date: 11.05.2021
+  paper: "Connecting the dots: Multivariate time series forecasting with graph neural networks"
+  authors: Wu et al.
+  url: https://arxiv.org/abs/2005.11650
+  pdf: 
+  video:
+  location: "Zoom meetings"
+  summary:
 
-#   - presenter:
-#   date: 11.12.2021
-#   paper: "AISTATS Review"
-#   authors: 
-#   url: 
-#   pdf: 
-#   video:
-#   location:
-#   summary:
+  - presenter: 
+  date: 11.12.2021
+  paper: "AISTATS Review"
+  authors: 
+  url: 
+  pdf: 
+  video:
+  location:
+  summary:
