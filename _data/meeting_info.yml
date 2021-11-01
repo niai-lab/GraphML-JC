@@ -36,7 +36,7 @@
   location: "Zoom meetings"
   summary:
   
-  - presenter: Juhyeon Kim
+- presenter: Juhyeon Kim
   date: 11.05.2021
   paper: "Connecting the dots: Multivariate time series forecasting with graph neural networks"
   authors: Wu et al.
@@ -46,7 +46,7 @@
   location: "Zoom meetings"
   summary:
 
-  - presenter: "None"
+- presenter: "None"
   date: 11.12.2021
   paper: "AISTATS Review"
   authors: "None"
