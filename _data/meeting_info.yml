@@ -35,3 +35,23 @@
   video: ""
   location: "Zoom meetings"
   summary: ""
+  
+  - presenter: Juhyun Kim
+  date: 11.05.2021
+  paper: "TBA"
+  authors: 
+  url: https://arxiv.org/abs/
+  pdf: ""
+  video: ""
+  location: "Zoom meetings"
+  summary: ""
+
+  - presenter:
+  date: 11.12.2021
+  paper: "AISTATS Review"
+  authors: 
+  url: 
+  pdf: ""
+  video: ""
+  location: ""
+  summary: ""
