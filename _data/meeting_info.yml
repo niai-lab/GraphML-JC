@@ -31,8 +31,8 @@
   paper: "Scaling Graph-based Deep Learning models to larger networks"
   authors: Ferriol-Galmés et al.
   url: https://arxiv.org/abs/2110.01261
-  pdf: 
-  video: 
+  pdf: "None"
+  video: "None"
   location: "Zoom meetings"
   summary:
   
@@ -41,17 +41,17 @@
   paper: "Connecting the dots: Multivariate time series forecasting with graph neural networks"
   authors: Wu et al.
   url: https://arxiv.org/abs/2005.11650
-  pdf: 
-  video:
+  pdf: "None"
+  video: "None"
   location: "Zoom meetings"
   summary:
 
-  - presenter: --
+  - presenter: "None"
   date: 11.12.2021
   paper: "AISTATS Review"
-  authors: --
-  url: 
-  pdf: 
-  video:
-  location: --
+  authors: "None"
+  url: "None"
+  pdf: "None"
+  video: "None"
+  location: "None"
   summary:
