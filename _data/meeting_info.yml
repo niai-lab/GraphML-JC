@@ -31,7 +31,7 @@
   paper: "Scaling Graph-based Deep Learning models to larger networks"
   authors: Ferriol-Galmés et al.
   url: https://arxiv.org/abs/2110.01261
-  pdf: ""
+  pdf: 
   video: ""
   location: "Zoom meetings"
   summary: ""
@@ -41,7 +41,7 @@
   paper: "TBA"
   authors: 
   url: https://arxiv.org/abs/
-  pdf: ""
+  pdf: 
   video: ""
   location: "Zoom meetings"
   summary: ""
@@ -51,7 +51,7 @@
   paper: "AISTATS Review"
   authors: 
   url: 
-  pdf: ""
+  pdf: 
   video: ""
   location: ""
   summary: ""
