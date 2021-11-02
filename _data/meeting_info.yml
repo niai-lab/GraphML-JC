@@ -34,13 +34,13 @@
   pdf:
   video: https://youtu.be/vAbpM1Hp-vQ
   location: "Zoom meetings"
-  summary: >
-    Graph Neural Networks (GNN) have shown a strong potential to be integrated into commercial products for network control and management. However, the Graph Neural Networking challenge 2021 brings a practical limitation of existing GNN-based solutions for networking: the lack of generalization to larger networks. The goal of this challenge is to create a scalable Network Digital Twin (i.e., a network model) based on neural networks, which can accurately estimate QoS performance metrics given a network state snapshot. The proposed GNN-Based solution pursues two main objectives: \n
-    \n
-    (1) Finding a good representation for the network components supported by the model.\n
-    \n
-    (2) Exploit scale-independent features of networks.\n
-    \n
+  summary: |
+    Graph Neural Networks (GNN) have shown a strong potential to be integrated into commercial products for network control and management. However, the Graph Neural Networking challenge 2021 brings a practical limitation of existing GNN-based solutions for networking: the lack of generalization to larger networks. The goal of this challenge is to create a scalable Network Digital Twin (i.e., a network model) based on neural networks, which can accurately estimate QoS performance metrics given a network state snapshot. The proposed GNN-Based solution pursues two main objectives:
+    
+    (1) Finding a good representation for the network components supported by the model.
+    
+    (2) Exploit scale-independent features of networks.
+    
     There are two main properties for networks become larger: (i) higher link capacities and (ii) longer paths. By defining link capacities as the product of a virtual reference link capacity and a scale factor, GNN can learn to make accurate estimates on any combination of these two features. By defining Lmax as a configurable parameter and split flows exceeding Lmax into different queue-link sequences, the model can independently learn each representation. The model was trained on graphs size of |V| = 25 ~ 300 and tested with graphs size of |V| = 50 ~ 300. To generate a wide set of topologies of variable size, all graph topologies have been artificially generate using Power-Law Out-Degree Algorithm. By using grid search data augmentation, the model was trained to cover a broad combination of virtual reference link capacity and a scale factor. As a result, the model obtains better accuracy in topologies seen during the training phase (50 to 99 nodes), achieving an average error of 4.5%. As the topology size increases, the average error stabilizes to ≈10%.
 
   This paper have presented a novel GNN-based model that addresses a main limitation of existing ML-based models applied to networks: generalizing accurately to considerably larger networks.
