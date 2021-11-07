@@ -53,7 +53,23 @@
   pdf:
   video: https://youtu.be/q253JT_R8aI
   location: "Zoom meetings"
-  summary: --
+  summary: |
+    Modeling multivariate time series has long been a subject that has attracted researchers from a diverse range of fields. 
+    Until now, modeling multivariate time series forecasting they assume that each variable depends on its historical values. 
+    But in real world data each variable depends not only on its historical values but also on other variables. And existing methods fail to fully exploit latent spatial dependencies between pairs of variables.
+    This paper propose “MTGNN” that can simultaneously learn the graph structure and the GNN for time series in an end-to-end framework.
+    The Main frameworks of “MTGNN” are
+
+    1.	Graph Learning Layer
+    -	Extract sparse graph adjacency matrix
+
+    2.	Graph Convolution module
+    -	Address spatial dependencies among Variables
+    
+    3.	Temporal Convolution module
+    -	Capture temporal patterns
+    
+    MTGNN achieves great performance on two traffic dataset and show that learning dependencies between variables are more capable of indicating extreme traffic conditions of the central node in advance.
 
 - presenter: ""
   date: 11.12.2021
