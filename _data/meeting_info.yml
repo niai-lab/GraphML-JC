@@ -89,4 +89,12 @@
   pdf:
   video: "https://youtu.be/gPpifJ5ulVs"
   location: "Zoom meetings"
-  summary:
+  summary: |
+    Neural Networks whose subnetworks implement reusable functions are expected to offer numerous advantages. Modularity provides a way of achieving compositionality which is essential for systemic generalization. 
+    This paper defines functional modules whether modules implementing specific functionality emerge. 
+    By training probabilistic, binary but differentiable masks for all weight, the result shows the module necessary to perform target function. 
+    This paper investigates whether NN uses different modules for very different functions and reuses the same modules for the same functions. 
+    Many typical NNs are good at specializing modules well but not reusing modules for identical functions. FNN and LSTM share weights depending more on the location of the inputs/outputs than similarity of the performed operations. 
+    CNN mostly depend on class-exclusive, non-shared weights in feature detection. Reusing property does not emerge naturally and the same functionality is re-learned (redundant and potentially harmful). 
+    There are several potential explanations about poor generalization: NN find it hard to learn to represent data similarly along different information routes that can in principle be processed by a single module. 
+    NN might not have learned the correct algorithm to solve some problems. 
