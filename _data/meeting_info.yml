@@ -74,9 +74,19 @@
 - presenter: ""
   date: 11.12.2021
   paper: "AISTATS Review"
-  authors: "None"
+  authors: Csordás et al.
   url: "None"
   pdf:
   video: "None"
   location: ""
+  summary:
+  
+- presenter: Haesung Pyeon
+  date: 11.19.2021
+  paper: "Are Neural Nets Modular? Inspecting Functional Modularity Through Differentiable Weight Masks"
+  authors: "None"
+  url: https://arxiv.org/abs/2010.02066
+  pdf:
+  video: "None"
+  location: "Zoom meetings"
   summary:
