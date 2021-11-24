@@ -98,3 +98,13 @@
     CNN mostly depend on class-exclusive, non-shared weights in feature detection. Reusing property does not emerge naturally and the same functionality is re-learned (redundant and potentially harmful). 
     There are several potential explanations about poor generalization: NN find it hard to learn to represent data similarly along different information routes that can in principle be processed by a single module. 
     NN might not have learned the correct algorithm to solve some problems. 
+
+- presenter: Taehoon Park
+  date: 11.26.2021
+  paper: "Perturbation theory approach to study the latent space degeneracy of Variational Autoencoders"
+  authors: Andrés-Terré & Lió
+  url: https://arxiv.org/abs/1907.05267
+  pdf:
+  video: "None"
+  location: "Zoom meetings"
+  summary:
