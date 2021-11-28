@@ -105,6 +105,13 @@
   authors: Andrés-Terré & Lió
   url: https://arxiv.org/abs/1907.05267
   pdf:
-  video: "None"
+  video: "https://youtu.be/gPpifJ5ulVs"
   location: "Zoom meetings"
-  summary:
+  summary: |
+    VAEs provide a lower dimensional representation of the data, in the form of a set of generative functions capable to reproduce and reconstruct the original input.
+    Inspired by perturbation analysis in quantum physics, we have developed an approach to unveil structures and the energy spectrum encoded in the data by using the generative functions extracted from a VAE
+    Applying a certain perturbed Hamiltonian over the generated function.
+
+    For implementation, encoder returns the function that returns unique solution for the system. To generate different energy level, perturbation approach linearly combines unperturbed energy and Hamiltonian.
+
+    The embeddings generated from the fully trained VAE provide a space where the clusters are clearly seperable. This work is very beginning of the line of study, and further studies will promising for understanding dynamic system with new approach.
