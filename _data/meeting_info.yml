@@ -115,3 +115,22 @@
     For implementation, encoder returns the function that returns unique solution for the system. To generate different energy level, perturbation approach linearly combines unperturbed energy and Hamiltonian.
 
     The embeddings generated from the fully trained VAE provide a space where the clusters are clearly seperable. This work is very beginning of the line of study, and further studies will promising for understanding dynamic system with new approach.
+
+- presenter: Donghee Kang
+  date: 12.03.2021
+  paper: "Towards Efficient Point Cloud Graph Neural Netwokrs Through Architectural Simplification"
+  authors: Tailor et al.
+  url: https://arxiv.org/abs/2108.06317
+  pdf:
+  video: "https://youtu.be/l_Z6xgEBHBg"
+  location: "Zoom meetings"
+  summary: |
+    This papers suggests a efficient method to learn point cloud data that reduces latency and memory consumption. 
+    
+    Point cloud architectures incorporate geometric priors in the first layer but as it goes deeper geometric priors are lost.
+    
+    So this paper suggests featrue extractor at first layer with several geometric priors. (target postion, source position, relative postion, euclidean distance)
+    
+    By using feature extractor and simplifed DGCNN, we could get good performance in less time and memory.
+
+
