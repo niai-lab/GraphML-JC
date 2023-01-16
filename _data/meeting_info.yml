@@ -4,7 +4,7 @@
   authors: Ke et al.
   url: https://arxiv.org/abs/1910.01075
   pdf: /GraphML-JC/pdf/Learning_Neural_Causal_Models_from_Unknown_Interventions.pdf
-  video: https://youtu.be/fCqoPeP5WRU
+  #video: https://youtu.be/fCqoPeP5WRU
   location: "Zoom meetings"
   summary: >
    이번 논문은 system을 contional probability로 modeling 하는 경우에서 graph sturcture recovery에 관한 내용입니다. 
@@ -22,7 +22,7 @@
   authors: Zeng et al.
   url: https://arxiv.org/abs/2009.05923
   pdf: /GraphML-JC/pdf/Contrastive_self-supervised_Learning_for_GC.pdf
-  video: https://youtu.be/-VD3UeHTqkU
+  #video: https://youtu.be/-VD3UeHTqkU
   location: "Zoom meetings"
   summary: "contrastive self supervised learning 방법을 이용해 graph classification이 발생할 수 있는 overfitting을 예방하려는 방법을 제안하였습니다. augmentation된 그래프들이 같은 그래프에서 나왓는지 아닌지를 prediction하는 모델을 학습한 후 fine-tuning을 통해 classification을 수행하는 방법과 prediction과 classification을 동시에 수행 하며 regularization을 동시에 수행하는 두가지 방법이 있습니다. 두 방법 모두 단순히 classification만을 수행하는 모델보다 좋은 성능을 보였고 overfitting문제를 더 잘 해결 할 수 있었습니다."
 
@@ -32,7 +32,7 @@
   authors: Ferriol-Galmés et al.
   url: https://arxiv.org/abs/2110.01261
   pdf:
-  video: https://youtu.be/vAbpM1Hp-vQ
+  #video: https://youtu.be/vAbpM1Hp-vQ
   location: "Zoom meetings"
   summary: |
     Graph Neural Networks (GNN) have shown a strong potential to be integrated into commercial products for network control and management. However, the Graph Neural Networking challenge 2021 brings a practical limitation of existing GNN-based solutions for networking: the lack of generalization to larger networks. The goal of this challenge is to create a scalable Network Digital Twin (i.e., a network model) based on neural networks, which can accurately estimate QoS performance metrics given a network state snapshot. The proposed GNN-Based solution pursues two main objectives:
@@ -51,7 +51,7 @@
   authors: Wu et al.
   url: https://arxiv.org/abs/2005.11650
   pdf:
-  video: https://youtu.be/q253JT_R8aI
+  #video: https://youtu.be/q253JT_R8aI
   location: "Zoom meetings"
   summary: |
     Modeling multivariate time series has long been a subject that has attracted researchers from a diverse range of fields. 
@@ -87,7 +87,7 @@
   authors: Csordás et al.
   url: https://arxiv.org/abs/2010.02066
   pdf:
-  video: "https://youtu.be/gPpifJ5ulVs"
+  #video: "https://youtu.be/gPpifJ5ulVs"
   location: "Zoom meetings"
   summary: |
     Neural Networks whose subnetworks implement reusable functions are expected to offer numerous advantages. Modularity provides a way of achieving compositionality which is essential for systemic generalization. 
@@ -105,7 +105,7 @@
   authors: Andrés-Terré & Lió
   url: https://arxiv.org/abs/1907.05267
   pdf:
-  video: "https://youtu.be/jd60ajpFUmg"
+  #video: "https://youtu.be/jd60ajpFUmg"
   location: "Zoom meetings"
   summary: |
     VAEs provide a lower dimensional representation of the data, in the form of a set of generative functions capable to reproduce and reconstruct the original input.
@@ -122,7 +122,7 @@
   authors: Tailor et al.
   url: https://arxiv.org/abs/2108.06317
   pdf:
-  video: "https://youtu.be/l_Z6xgEBHBg"
+  #video: "https://youtu.be/l_Z6xgEBHBg"
   location: "Zoom meetings"
   summary: |
     This papers suggests a efficient method to learn point cloud data that reduces latency and memory consumption. 
