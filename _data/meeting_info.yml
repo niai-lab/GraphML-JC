@@ -1,3 +1,52 @@
+- presenter: Hyungeun Lee
+  date: 7.19.2023
+  paper: "Variance-invariance-covariance regularization for self-supervised learning"
+  authors: Bardes et al.
+  url: https://arxiv.org/abs/2105.04906
+  location: "산학기술관 702-1"
+  
+- presenter: Hyungeun Lee
+  date: 7.19.2023
+  paper: "Unsupervised learning of visual features by contrasting cluster assignments."
+  authors: Caron et al.
+  url: https://arxiv.org/abs/2006.09882
+  location: "산학기술관 702-1"
+  
+- presenter: Seungwon Yoo
+  date: 7.19.2023
+  paper: "Emerging Properties in Self-Supervised Vision Transformers"
+  authors: Caron et al.
+  url: https://arxiv.org/abs/2104.14294
+  location: "산학기술관 702-1"
+  
+- presenter: Seungwon Yoo
+  date: 7.19.2023
+  paper: "Exploring Simple Siamese Representation Learning"
+  authors: Chen et al.
+  url: https://arxiv.org/abs/2011.10566
+  location: "산학기술관 702-1"
+  
+- presenter: Seungwon Yoo
+  date: 7.19.2023
+  paper: "Bootstrap your own latent: A new approach to self-supervised Learning"
+  authors: Grill et al.
+  url: https://arxiv.org/abs/2006.07733
+  location: "산학기술관 702-1"
+  
+- presenter: Woong Hwang
+  date: 7.19.2023
+  paper: "With a little help from my friends: Nearest-neighbor contrastive learning of visual representations"
+  authors: Dwibedi et al.
+  url: https://arxiv.org/abs/2104.14548
+  location: "산학기술관 702-1"
+  
+- presenter: Woong Hwang
+  date: 7.19.2023
+  paper: "A Simple Framework for Contrastive Learning of Visual Representations"
+  authors: Chen et al.
+  url: https://arxiv.org/abs/2002.05709
+  location: "산학기술관 702-1"
+
 - presenter: Taehoon Park
   date: 10.15.2021
   paper: "Learning Neural Causal Models from Unknown Interventions"
