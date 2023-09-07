@@ -1,3 +1,10 @@
+- presenter: Wooyeol Jung
+  date: 9.14.2023
+  paper: "Semi-Supervised Classification with Graph Convolutional Networks"
+  authors: Kipf et al.
+  url: https://arxiv.org/abs/1609.02907
+  location: "산학기술관 702-1"
+
 - presenter: Hyungeun Lee
   date: 7.19.2023
   paper: "Variance-invariance-covariance regularization for self-supervised learning"
