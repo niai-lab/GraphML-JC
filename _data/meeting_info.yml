@@ -1,7 +1,7 @@
 - presenter: Wooyeol Jung
   date: 9.14.2023
   paper: "Semi-Supervised Classification with Graph Convolutional Networks"
-  authors: Kipf et al.
+  authors: Kipf & Welling
   url: https://arxiv.org/abs/1609.02907
   location: "산학기술관 702-1"
 
