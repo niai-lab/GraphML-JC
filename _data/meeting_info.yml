@@ -4,6 +4,11 @@
   authors: Kipf & Welling
   url: https://arxiv.org/abs/1609.02907
   location: "산학기술관 702-1"
+  summary: > 
+    이번 논문은 spectral graph convolution의 first-order approximation으로 유도되는 graph convolutional network를 제안합니다.
+    그동안의 graph based semi-supervised learning에서 graph의 smoothness만 고려한 것과는 달리 위 모델은 edge weight과 node간의 전달을 통해 고차원적인 정보를 다룰 수 있습니다.
+    다양한 citation network datasets에서 실험한 결과 다른 모델들에 비해 모두 뛰어난 성능을 보였습니다. 
+    발표에서는 수식의 이해를 돕기 위해 graph laplacian과 graph fourier transform에 대한 설명을 더하였으며 마지막에는 transformer와 GCN의 유사성을 다뤘습니다.
 
 - presenter: Hyungeun Lee
   date: 7.19.2023
