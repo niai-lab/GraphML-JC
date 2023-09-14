@@ -1,3 +1,11 @@
+- presenter: Seungwon Yu
+  date: 9.21.2023
+  paper: "Graph Attention Networks"
+  authors: Veličković et al. 
+  url: https://arxiv.org/abs/1710.10903
+  location: "산학기술관 702-1"
+  summary: > 
+
 - presenter: Wooyeol Jung
   date: 9.14.2023
   paper: "Semi-Supervised Classification with Graph Convolutional Networks"
@@ -24,21 +32,21 @@
   url: https://arxiv.org/abs/2006.09882
   location: "산학기술관 702-1"
   
-- presenter: Seungwon Yoo
+- presenter: Seungwon Yu
   date: 7.19.2023
   paper: "Emerging Properties in Self-Supervised Vision Transformers"
   authors: Caron et al.
   url: https://arxiv.org/abs/2104.14294
   location: "산학기술관 702-1"
   
-- presenter: Seungwon Yoo
+- presenter: Seungwon Yu
   date: 7.19.2023
   paper: "Exploring Simple Siamese Representation Learning"
   authors: Chen et al.
   url: https://arxiv.org/abs/2011.10566
   location: "산학기술관 702-1"
   
-- presenter: Seungwon Yoo
+- presenter: Seungwon Yu
   date: 7.19.2023
   paper: "Bootstrap your own latent: A new approach to self-supervised Learning"
   authors: Grill et al.
