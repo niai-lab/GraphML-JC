@@ -1,3 +1,12 @@
+- presenter: HyunGeun Lee
+  date: 10.05.2023
+  paper: "Neural Message Passing for Quantum Chemistry"
+  authors: Gilmer et al. 
+  url: https://arxiv.org/abs/1704.01212
+  location: "산학기술관 702-1"
+  summary: > 
+    
+
 - presenter: Seungwon Yu
   date: 9.21.2023
   paper: "Graph Attention Networks"
@@ -5,6 +14,12 @@
   url: https://arxiv.org/abs/1710.10903
   location: "산학기술관 702-1"
   summary: > 
+    Graph attention networks(GAT)는 2018년도 ICLR에서 발표된 논문입니다. GAT는 마스킹된 self-attention layer를 활용하여 기존의 spectral graph convolution의 단점을 해결했다고 합니다.
+    인접한 노드에 정규화된 attention coefficient를 곱하여 합산하는 aggregation 방법론을 사용함으로써, 행렬 연산 및 그래프 구조에 의존하지 않는 방법론을 제안합니다. 
+    GAT는 그래프의 구조에 영향을 받지 않기 때문에 기존의 transductive task 뿐만 아니라 inductive task에서도 좋은 성능을 보여준다고 합니다. 
+    이를 검증하기 위해 저자는 transductive task 벤치마킹을 위해 Cora, Citeseer 그리고 Pubmed 데이터셋을 사용하였습니다. 
+    또한, inductive task에 대한 벤치마킹을 위해 PPI(Protein-protein interaction) 데이터셋을 사용하여 GAT의 SOTA 성능을 검증하였습니다.
+    이번 미팅을 통해 GAT에서 사용한 self-attention layer의 수식에 대해 더 깊은 이해를 하였고, GNN 도메인에서 중요하게 여겨지는 방법론에 대한 기초를 다지는 시간을 가졌습니다.
 
 - presenter: Wooyeol Jung
   date: 9.14.2023
