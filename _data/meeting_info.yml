@@ -1,3 +1,12 @@
+- presenter: Woong Hwang
+  date: 10.12.2023
+  paper: "How Powerful are Graph Neural Networks?"
+  authors: Xu et al. 
+  url: https://arxiv.org/abs/1810.00826
+  location: "산학기술관 702-1"
+  summary: > 
+  
+
 - presenter: HyunGeun Lee
   date: 10.05.2023
   paper: "Neural Message Passing for Quantum Chemistry"
