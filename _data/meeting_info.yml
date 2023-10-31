@@ -14,6 +14,12 @@
   url: https://arxiv.org/abs/1704.01212
   location: "산학기술관 702-1"
   summary: > 
+    본 논문은 기존의 다양한 GNN architectures를 하나의 framework로 통합했다는 것에 의미가 큰 논문입니다. 그 framework는 Message Passing Neural Network framework라고 부르며, 이는 총 3가지 단계, Message passing, Update, 그리고 Readout로 구성되어 있습니다.
+    먼저, Message Passing 단계에서는 인접 노드의 정보를 계산하고 그 정보를 sum, mean, max, min 등의 연산을 통해 aggregation합니다. 이 때, aggregation된 정보를 message라고 합니다.
+    다음으로, 업데이트 단계에서 업데이트 함수 $U_t$는 target node와 메시지의 hidden state를 입력으로 받아 target node의 hidden state를 업데이트합니다. 
+    마지막으로, readout 단계에서는 전체 그래프에 대한 representation vector를 계산합니다.
+
+    저자들은 이 Framework를 통해 MPNN Variant를 개발하여 QM9 데이터셋에 대하여 Chemical Accuracy를 달성하였으며, 이 결과에 대한 더 자세한 내용은 논문에 기술되어 있습니다.
     
 
 - presenter: Seungwon Yu
