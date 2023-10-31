@@ -1,3 +1,11 @@
+- presenter: Wooyeol Jung
+  date: 11.02.2023
+  paper: "Principal Neighbourhood Aggregation for Graph Nets"
+  authors: Corso et al. 
+  url: https://arxiv.org/abs/2004.05718
+  location: "산학기술관 702-1"
+  summary: > 
+
 - presenter: Woong Hwang
   date: 10.12.2023
   paper: "How Powerful are Graph Neural Networks?"
@@ -5,6 +13,10 @@
   url: https://arxiv.org/abs/1810.00826
   location: "산학기술관 702-1"
   summary: > 
+      저자들은 Graph Neural Network의 aggregation mechanism의 expressive power에 대한 연구를 진행하였습니다. 
+      그리고 이를 Graph isomorphism test를 위한 1-WL(Weisfeiler-Lehman) test와 연결지어 설명합니다.
+      discrete한 feature를 가지는 그래프의 message passing과정을 tree형태로 inject하여 해석하면서 non-isomorphic 그래프 쌍의 aggregation에 대한 구분에 있어 실패하는 사례를 보여줍니다.
+      저자들은 이러한 한계점을 극복하기 위해 Expressive power를 극대화한 GIN 아키텍쳐를 제안하며 graph-level task에서 우수한 성능을 보여주었습니다. 
   
 
 - presenter: HyunGeun Lee
