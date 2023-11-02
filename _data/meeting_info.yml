@@ -5,6 +5,10 @@
   url: https://arxiv.org/abs/2004.05718
   location: "산학기술관 702-1"
   summary: > 
+      위 논문은 'How powerful are Graph Neural Networks?'애 이어서 그래프의 isomorphism problem을 해결하고자 하는 시도입니다.
+      discrete feature에서는 sum aggregator가 유용하다는 'How powerful are Graph Neural Networks?'의 주장과는 달리 본 논문은
+      continuous feature에 대해서는 multiple aggregators가 필요하다고 말합니다.
+      이 주장에 대한 근거로 여러 수학적 접근으로 엄밀성을 갖추었으며 real world bentchmarks에서 기존 방법론보다 훌륭한 결과를 보임을 밝힙니다. 
 
 - presenter: Woong Hwang
   date: 10.12.2023
