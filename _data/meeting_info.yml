@@ -22,7 +22,7 @@
     이렇게 되면 추후 extrapolation test 혹은 OOD generalization에 있어서 이 현상이 단점으로 부각될 수도 있지 않을까하는 우려가 있습니다.
     이에 대한 검증을 위한 추가 실험이 있었다면 더욱 좋았을 것 같습니다. 
 
-- presenter: Wooyeol Jung
+- presenter: Wooyul Jung
   date: 11.02.2023
   paper: "Principal Neighbourhood Aggregation for Graph Nets"
   authors: Corso et al. 
@@ -77,7 +77,7 @@
     또한, inductive task에 대한 벤치마킹을 위해 PPI(Protein-protein interaction) 데이터셋을 사용하여 GAT의 SOTA 성능을 검증하였습니다.
     이번 미팅을 통해 GAT에서 사용한 self-attention layer의 수식에 대해 더 깊은 이해를 하였고, GNN 도메인에서 중요하게 여겨지는 방법론에 대한 기초를 다지는 시간을 가졌습니다.
 
-- presenter: Wooyeol Jung
+- presenter: Wooyul Jung
   date: 9.14.2023
   paper: "Semi-Supervised Classification with Graph Convolutional Networks"
   authors: Kipf & Welling
