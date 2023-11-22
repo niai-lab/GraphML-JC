@@ -1,3 +1,19 @@
+- presenter: Yeonghak Jeong
+  date: 11.23.2023
+  paper: "Clone-structured graph representations enable flexible learning and vicarious evaluation of cognitive maps"
+  authors: George et al. 
+  url: https://www.nature.com/articles/s41467-021-22559-5
+  location: "산학기술관 702-1"
+  summary: >
+
+- presenter: Misun Parck
+  date: 11.21.2023
+  paper: "An Efficient Graph Convolutional Network Technique for the Traveling Salesman Problem"
+  authors: Joshi et al. 
+  url: https://arxiv.org/abs/1906.01227
+  location: "산학기술관 702-1"
+  summary: >
+  
 - presenter: Seungwon Yu
   date: 11.16.2023
   paper: "Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition"
