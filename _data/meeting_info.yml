@@ -1,3 +1,11 @@
+- presenter: HyunGeun Lee
+  date: 11.30.2023
+  paper: "Modular meta-learning"
+  authors: Alet et al. 
+  url: https://arxiv.org/abs/1806.10166
+  location: "산학기술관 702-1"
+  summary: >
+
 - presenter: Yeonghak Jeong
   date: 11.23.2023
   paper: "Clone-structured graph representations enable flexible learning and vicarious evaluation of cognitive maps"
