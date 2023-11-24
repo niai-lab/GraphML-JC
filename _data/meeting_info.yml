@@ -14,13 +14,18 @@
   location: "산학기술관 702-1"
   summary: >
 
-- presenter: Misun Park
+- presenter: Miseon Park
   date: 11.21.2023
   paper: "An Efficient Graph Convolutional Network Technique for the Traveling Salesman Problem"
   authors: Joshi et al. 
   url: https://arxiv.org/abs/1906.01227
   location: "산학기술관 702-1"
   summary: >
+    본 논문은 TSP 문제 해결을 위해 새로운 non-autoregressive learning-based 방법을 제안합니다. 
+    먼저, Graph Convolutional Network를 사용하여 그래프의 표현을 heat map으로 나타냅니다.
+    그 다음 만들어진 heat map을 Beam Search를 통해 non-autoregressive하게 경로를 찾아냅니다.  
+    이러한 방법은 고정된 크기의 그래프인 경우 해결 품질, 추론 속도, 샘플 효율성 측면에서 기존의 autoregressive deep learning model을 능가했습니다.
+    그러나, 표준 Operation Research solver에는 미치지 못했습니다. 
   
 - presenter: Seungwon Yu
   date: 11.16.2023
