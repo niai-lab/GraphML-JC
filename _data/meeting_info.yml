@@ -5,6 +5,14 @@
   url: "None"
   location: "Zoom meetings"
   summary:
+
+- presenter: Seungwon Yu
+  date: 12.27.2023
+  paper: "Graph Transformer Networks"
+  authors: Yun et al.
+  url: https://arxiv.org/abs/1911.06455
+  location: "산학기술관 702-1"
+  summary:
   
 - presenter: ""
   date: 12.2023
@@ -20,7 +28,10 @@
   authors: Alet et al. 
   url: https://arxiv.org/abs/1806.10166
   location: "산학기술관 702-1"
-  summary: >
+  summary: > 
+    본 논문에서는 다양한 방식으로 결합할 수 있는 신경망 모듈 세트를 학습하기 위한 전략을 소개합니다. 
+    서로 다른 관련 태스크에 대한 훈련을 통해 이러한 모듈을 재사용 및 결합하여 새로운 태스크에 적용하여 해결할 수 있으며, 이를 통해 더 나은 예측 성능을 얻을 수 있음을 확인할 수 있습니다. 
+    저자들은 두 가지 로봇공학 관련 문제에서 접근 방식의 효과를 입증하였습니다.
 
 - presenter: Yeonghak Jeong
   date: 11.23.2023
