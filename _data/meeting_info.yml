@@ -6,6 +6,19 @@
   location: "Zoom meetings"
   summary:
 
+- presenter: Wooyul Jung
+  date: 01.03.2023
+  paper: "Neural Relational Inference for Interacting Systems"
+  authors: Thomas Kipf et al.
+  url: https://arxiv.org/abs/1802.04687
+  location: "산학기술관 702-1"
+  summary: >
+  본 논문은 Interacting system에서 dynamic model을 훈련하며 relational structure를 동시에 추론하는 방법인 NRI를 제안하였습니다. 
+  Neural relational inference (NRI) model은 discrete latent graph를 통해 GNN으로 dynamics를 학습하고 추론된 edge type으로 interaction을 분류하게 됩니다.
+  본 논문에서는 Physics simulation task를 집중적으로 다뤘습니다. 다른 연구와는 달리 explicit interaction structure를 사용하여 dynamic model의 interaction을 학습합니다.
+  Latent graph structure를 추론하기 위해 VAE를 사용하였고, 물리현상에 대해서는 Markovian assumption를 적용하여 dymanic을 예측한다는 특징을 가집니다.
+  Real-world의 많은 예시에서 interaction이 dynamic하나 본 모델은 static interaction graph만을 이해할 수 있다는 한계점을 가집니다.
+  
 - presenter: Seungwon Yu
   date: 12.27.2023
   paper: "Graph Transformer Networks"
