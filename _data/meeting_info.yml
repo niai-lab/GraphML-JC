@@ -6,10 +6,18 @@
   location: "Zoom meetings"
   summary:
 
+- presenter: HyunGeun Lee
+  date: 01.10.2023
+  paper: "AMAG: Additive, Multiplicative and Adaptive Graph Neural Network For Forecasting Neuron Activity"
+  authors: Li et al.
+  url: https://openreview.net/forum?id=7ntI4kcoqG
+  location: "산학기술관 702-1"
+  summary: >
+
 - presenter: Wooyul Jung
   date: 01.03.2023
   paper: "Neural Relational Inference for Interacting Systems"
-  authors: Thomas Kipf et al.
+  authors: Kipf et al.
   url: https://arxiv.org/abs/1802.04687
   location: "산학기술관 702-1"
   summary: >
