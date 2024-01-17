@@ -16,7 +16,7 @@
   
 
 - presenter: HyunGeun Lee
-  date: 01.10.2023
+  date: 01.10.2024
   paper: "AMAG: Additive, Multiplicative and Adaptive Graph Neural Network For Forecasting Neuron Activity"
   authors: Li et al.
   url: https://openreview.net/forum?id=7ntI4kcoqG
@@ -33,7 +33,7 @@
     [1] Systematic errors in connectivity inferred from activity in strongly recurrent networks
 
 - presenter: Wooyul Jung
-  date: 01.03.2023
+  date: 01.03.2024
   paper: "Neural Relational Inference for Interacting Systems"
   authors: Kipf et al.
   url: https://arxiv.org/abs/1802.04687
