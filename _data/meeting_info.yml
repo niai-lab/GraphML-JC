@@ -13,6 +13,11 @@
   url: https://arxiv.org/abs/1611.07308
   location: "산학기술관 702-1"
   summary: >
+   본 논문에서는 Graph Distribution을 어떻게 Variational Auto-Encoder로 학습할 것인가에 대한 아이디어를 설명하고 있습니다.
+   Graph를 Generate하는 함수를 정확하게 알기 어렵기 때문에, 이를 잘 근사할 수 있는 함수를 이용하여 추론하는 것이 목적입니다.
+   그리고 Generative 함수를 만들기 위해, Graph의 Distribution을 low-dimension의 latent space에 저장할 필요가 있는데, 이 때 Graph를 Gaussian의 parameter (mean, variance)로 저장한다는 점에도 주목할 필요가 있습니다.
+   Link prediction task를 수행한 결과  - Cora, Citesser에 대해 Variational Inference 한 경우, 그리고 Cora, Citeseer, Pubmed에 대해 node feature를 함께 학습시킨 경우애 더 좋은 성능을 보인다는 결과를 도출했습니다.
+   더 나은 결과를 위해, Gaussian보다 더 나은 prior distribution을 찾아보아야 할 필요가 있다고 주장하고 있습니다.
   
 
 - presenter: HyunGeun Lee
