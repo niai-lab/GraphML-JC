@@ -6,6 +6,14 @@
   location: "Zoom meetings"
   summary:
 
+- presenter: Miseon Park
+  date: 01.24.2024
+  paper: "Multivariate Time-series Anomaly Detection via Graph Attention Network"
+  authors: Zhao et al.
+  url: https://arxiv.org/abs/2009.02040
+  location: "산학기술관 702-1"
+  summary: >
+  
 - presenter: Yeonghak Jeong
   date: 01.17.2024
   paper: "Variational Graph Auto-Encoders"
