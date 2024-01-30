@@ -6,6 +6,23 @@
   location: "Zoom meetings"
   summary:
 
+- presenter: HyunGeun Lee
+  date: 02.21.2024
+  paper: "What Is a Cognitive Map? Organizing Knowledge for Flexible Behavior"
+  authors: Behrens et al.
+  url: https://www.sciencedirect.com/science/article/pii/S0896627318308560
+  location: "산학기술관 702-1"
+  summary: >
+
+
+- presenter: Ung Hwang
+  date: 01.31.2024
+  paper: "Identity-aware Graph Neural Networks"
+  authors: You et al.
+  url: https://ojs.aaai.org/index.php/AAAI/article/view/17283
+  location: "산학기술관 702-1"
+  summary: >
+
 - presenter: Miseon Park
   date: 01.24.2024
   paper: "Multivariate Time-series Anomaly Detection via Graph Attention Network"
