@@ -93,7 +93,21 @@
   authors: Yun et al.
   url: https://arxiv.org/abs/1911.06455
   location: "산학기술관 702-1"
-  summary:
+  summary: >
+    summary:
+    본 논문은 기존의 대부분의 GNN model 이 graph를 fixed & homogenous graph로 생각하고 해석하는데 한계점을 제시하며 다양한 edge와 node type을 가진 heterogenous graph 로 해석하는 방법을 제시합니다.
+    또한 기존의 heterogeneous graph 해석 논문에서 제시하는 고정된 meta-path 방법의 문제점을 제시하고 meta-path 자체를 추정하는 Network를 제안합니다.
+    Adjacency matrix 의 곱으로 연결되지 않은 node 끼리의 meta-path 생성이 가능하다는 점을 이용하여 1D-conv 를 사용하여 Selected Adjacency Matrices 를 생성하게 됩니다.
+    해당 1D-conv는 softmax 함수를 적용하여 meta-path 생성 시 adjancy matrix에 대한 attention score 역할을 하게 됩니다.
+    이후 생성된 meta-path 들에 전부 GCN, GAT 를 적용하고 해당 정보를 concat 하여 최종 downstream task를 진행합니다.
+    strength : 
+    본 논문은 기존의 사람의 지식에 기반하여 pre-define 된 meta-path 가 실제 gnn network 가 참조하는 metapath와 차이가 있다는 점을 밝혀내고 그래프의 정보에 따라 meta-path를 fit하게 생성이 가능합니다
+    또한 전체 알고리즘이 아닌 meta-path 생성 알고리즘을 제안하여 해당 meta-path를 기반으로 기존의 고성능 GNN 알고리즘을 함께 사용할 수 있습니다
+    weekness : 
+    생성된 metapath 전체에 대해서 GNN 알고리즘을 적용해야 하기 때문에 연산량이 높아지며 해당 논문에서도 2개의 Selected Adjacency Matrices 에 대한 결과만 보여주고 있습니다.
+    
+    
+    
   
 - presenter: ""
   date: 12.2023
@@ -147,7 +161,16 @@
   authors: Yan et al. 
   url: https://arxiv.org/abs/1801.07455
   location: "산학기술관 702-1"
-  summary: >
+  summary: > 
+    summary :
+    본 논문은 graph-based 로 video action recognition을 진행하는 방법을 제안합니다.
+    RGB 형태의 video를 openpose 알고리즘을 사용하여 2D skeleton으로 변환한 후 skeleton의 형태를 graph로 해석하여 각 feature 간의 update를 진행합니다.
+    Update 시 1d convolution을 사용하여 다른 timestamp의 같은 joint 의 정보를 message-passing 한 후 spatial data의 정보를 gcn을 통하여 update 하는 방식을 사용합니다.
+    strength :
+    본 논문에서 저자들은 2D skeleton 및 3D skeleton data를 전부 사용하였는데 이는 2D, 3D data의 입력 pixel 위치만을 참고하여 해석을 진행하기 때문에 가능하며 2D, 3D 형태를 전부 적용이 가능하다는 장점을 가집니다.
+    실제 실험 시 CNN Based 방법보다 연산량이 월등하게 작아 학습 및 추론 속도에서의 강점을 가집니다.
+    weekness : 
+    전체 timestamp를 참조하여 action recognition을 진행하기 때문에 여러 영상이 함께 나오는 task에서는 사용하기 힘들 수 있습니다. sliding window 방식을 접목하면 해당 문제점을 해결할 수 있을수도 있습니다.
 
 - presenter: HyunGeun Lee
   date: 11.09.2023
