@@ -5,7 +5,7 @@
   url: "None"
   location: "Zoom meetings"
   summary:
-  
+
 - presenter: Yeonghak Jeong
   date: 02.28.2024
   paper: "Learning Energy-based Models by Diffusion Recovery Likelihood"
@@ -13,7 +13,6 @@
   url: https://arxiv.org/abs/2012.08125
   location: "산학기술관 702-1"
   summary: >
-
 
 - presenter: HyunGeun Lee
   date: 02.21.2024
@@ -23,6 +22,13 @@
   location: "산학기술관 702-1"
   summary: >
 
+- presenter: Wooyul Jung
+  date: 02.07.2024
+  paper: "Graph Neural Networks with Learnable Structural and Positional Representations"
+  authors: Dwivedi et al.
+  url: https://arxiv.org/abs/2110.07875
+  location: "산학기술관 702-1"
+  summary: >
 
 - presenter: Ung Hwang
   date: 01.31.2024
