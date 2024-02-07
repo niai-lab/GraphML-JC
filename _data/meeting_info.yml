@@ -22,14 +22,21 @@
   location: "산학기술관 702-1"
   summary: >
 
-- presenter: Wooyul Jung
+- presenter: Jung Wooyul
   date: 02.07.2024
   paper: "Graph Neural Networks with Learnable Structural and Positional Representations"
   authors: Dwivedi et al.
   url: https://arxiv.org/abs/2110.07875
   location: "산학기술관 702-1"
   summary: >
-
+    Summary : 이 논문은 structural과 positionial representations를 따로 학습하고자 하는 아이디어를 제시한다. 제시하는 architecture인 LSPE는 random walk feature를 Positional Encoding initialization
+      으로 사용하여 high-order position information을 가진다. 본 구조는 어떤 sparse GNNs이나 transformer GNNs에서 적용이 가능하며 성능을 향상시킨다. 
+    Strength : 기존의 positional representation과는 다르게 structure와 따로 학습을 시켜 더 정확하고 추론에 도움이 되는 PE를 생성할 수 있다. Laplacian PE와는 다르게 Random Walk PE는 1-WL test를 통과하며 
+      sign shifting 현상을 가지지 않는다. 
+    Weekness : x
+    Question : 과연 positional encoding으로써 효과가 있는 것인지 아니면 multihead적 접근으로써의 연산이 효과가 있는 것 일까. RWPE 대신에 random initialization을 한다면 결과가 달라질까. 
+      훈련을 마치고 난 후의 positional encoding은 RWPE initial 값와 비교하여 어떻게 다를까. 
+      
 - presenter: Ung Hwang
   date: 01.31.2024
   paper: "Identity-aware Graph Neural Networks"
