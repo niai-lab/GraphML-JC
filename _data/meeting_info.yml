@@ -22,7 +22,7 @@
   location: "산학기술관 702-1"
   summary: >
 
-- presenter: Jung Wooyul
+- presenter: Wooyul Jung
   date: 02.07.2024
   paper: "Graph Neural Networks with Learnable Structural and Positional Representations"
   authors: Dwivedi et al.
