@@ -30,13 +30,10 @@
   location: "산학기술관 702-1"
   summary: >
       Summary : 이 논문은 structural과 positionial representations를 따로 학습하고자 하는 아이디어를 제시합니다. 제시하는 architecture인 LSPE는 random walk feature를 Positional Encoding initialization
-      으로 사용하여 high-order position information을 가집니다. 본 구조는 어떤 sparse GNNs이나 transformer GNNs에서도 적용이 가능하며 성능을 향상시킵니다. 
-      
+      으로 사용하여 high-order position information을 가집니다. 본 구조는 어떤 sparse GNNs이나 transformer GNNs에서도 적용이 가능하며 성능을 향상시킵니다.   
       Strength : 기존의 positional representation과는 다르게 structure와 따로 학습을 시켜 더 정확하고 추론에 도움이 되는 PE를 생성할 수 있습니다. Laplacian PE와는 다르게 Random Walk PE는 1-WL test를 통과하며 
-      sign shifting 현상을 가지지 않습니다. 
-      
-      Weekness : positional encoding에 대한 사전 조사나 비교 실험이 부족합니다. PE를 학습하고자 하는 아이디어에 대한 근거를 가지지 않습니다. 
-      
+      sign shifting 현상을 가지지 않습니다.   
+      Weekness : positional encoding에 대한 사전 조사나 비교 실험이 부족합니다. PE를 학습하고자 하는 아이디어에 대한 근거를 가지지 않습니다.   
       Question : 과연 positional encoding으로써 효과가 있는 것인지 아니면 multihead적 접근으로써의 연산이 효과가 있는 것일지 궁금합니다. 또한 RWPE 대신에 random initialization을 한다면 결과가 어떻게 달리지는지 
       실험해보고 싶습니다. positional representation을 학습하는 것의 의미를 파악하고자 훈련을 마치고 난 후의 positional feature을 RWPE initial 값와 비교하여 보고 싶습니다.
       
