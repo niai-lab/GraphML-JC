@@ -8,9 +8,9 @@
 
 - presenter: Yeonghak Jeong
   date: 03.06.2024
-  paper: "Learning Energy-based Models by Diffusion Recovery Likelihood"
-  authors: Gao et al.
-  url: https://arxiv.org/abs/2012.08125
+  paper: "VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models"
+  authors: Xiao et al.
+  url: https://arxiv.org/abs/2010.00654
   location: "산학기술관 702-1"
   summary: >
 
