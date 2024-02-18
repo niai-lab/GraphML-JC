@@ -22,6 +22,15 @@
   location: "산학기술관 702-1"
   summary: >
 
+- presenter: Seungwon Yu
+  date: 02.21.2024
+  paper: "GNNExplainer: Generating Explanations for Graph Neural Networks"
+  authors: Ying et al.
+  url: https://arxiv.org/abs/1903.03894
+  location: "산학기술관 702-1"
+  summary: >
+
+  
 - presenter: Wooyul Jung
   date: 02.07.2024
   paper: "Graph Neural Networks with Learnable Structural and Positional Representations"
