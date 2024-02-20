@@ -7,6 +7,14 @@
   summary:
 
 - presenter: Yeonghak Jeong
+  date: 04.17.2024
+  paper: "Diffusion Improves Graph Learning"
+  authors: Gasteiger et al.
+  url: https://arxiv.org/abs/1911.05485
+  location: "산학기술관 702-1"
+  summary: >
+
+- presenter: Yeonghak Jeong
   date: 03.06.2024
   paper: "Position-aware Graph Neural Networks"
   authors: You et al.
