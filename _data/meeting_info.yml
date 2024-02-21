@@ -37,6 +37,12 @@
   url: https://arxiv.org/abs/1903.03894
   location: "산학기술관 702-1"
   summary: >
+    summary : 본 논문은 graph를 해석하기 위한 explainable AI 방식을 제안합니다. Graph의 경우 feature 의 정보와는 다르게 Node 간의 연결성이 중요하여 두가지의 정보를 모두 고려하여야 합니다.
+    이러한 정보를 고려하여 저자들은 sub graph 형태를 생성하여 원본 graph 형태와 Mutual Information(MI)를 비교하여 가장 높은 값을 가지는 sub graph 의 구조를 찾아갑니다.
+    Strength : Graph 형태를 해석하기에 수월한 형태를 처음으로 제안하였으며 효율적으로 그래프 형태의 Explainable Ai 방식을 제안하였습니다.
+    Weekness : 현재 진행하고 있는 Pose Estimation에 적용하기가 어려워 보입니다. 해당 방식은 Ground Truth 의 subgraph 를 가지고 학습되는데 현재 사용하는 Data에서는 그러한 정보를 얻기가
+    쉽지 않을 것 같습니다. 또한 Node classification 시 각각의 node에 대하여 모든 적용을 해야하여 연산량의 증가가 필수적입니다.
+    
 
   
 - presenter: Wooyul Jung
