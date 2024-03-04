@@ -1,13 +1,5 @@
-- presenter: Rajkumar V. Raju (Research Scientist @ Google DeepMind)
-  date: 01.18.2024
-  paper: TBA
-  authors: 
-  url: "None"
-  location: "Zoom meetings"
-  summary:
-
 - presenter: Yeonghak Jeong
-  date: 04.17.2024
+  date: 04.18.2024
   paper: "Diffusion Improves Graph Learning"
   authors: Gasteiger et al.
   url: https://arxiv.org/abs/1911.05485
@@ -15,7 +7,7 @@
   summary: >
 
 - presenter: Yeonghak Jeong
-  date: 03.06.2024
+  date: 03.07.2024
   paper: "Position-aware Graph Neural Networks"
   authors: You et al.
   url: https://arxiv.org/abs/1906.04817
