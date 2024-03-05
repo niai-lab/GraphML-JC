@@ -6,6 +6,14 @@
   location: "산학기술관 702-1"
   summary: >
 
+- presenter: Miseon Park 
+  date: 03.14.2024
+  paper: "Graph U-Nets"
+  authors: Hongyang Gao & Shuiwang Ji
+  url: https://arxiv.org/abs/1905.05178
+  location: "산학기술관 702-1"
+  summary: >
+
 - presenter: Yeonghak Jeong
   date: 03.07.2024
   paper: "Position-aware Graph Neural Networks"
