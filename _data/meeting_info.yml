@@ -21,6 +21,16 @@
   url: https://arxiv.org/abs/1906.04817
   location: "산학기술관 702-1"
   summary: >
+   본 논문은 기존의 GNN이 isomorphic graph의 symmetric한 node를 구별하지 못하는 structure-aware embedding의 한계를 해결하기 위해, node의 position을 함꼐 저장하는 방법을 제안하고 있습니다. 
+   Anchor-set을 임의로 지정하여 node의 symmetry를 깨고, Anchor-set과 node 간의 거리 정보를 propagate하고자 하는 message에 포함시킴으로서 position-aware embedding 또한 가능하다고 주장하고 있습니다.
+   Anchor-set의 개수를 적절히 정하기 위해 metric space와 관련된 수학 이론을 활용했습니다.
+
+   위와 같은 요약을 기반으로 만들어진 P-GNN은 다양한 dataset과 task에 대하여 GNN에 비해 더 좋은 성능을 보였습니다. 
+   특히 position 정보가 이미 dataset에 포함되어 있거나 node 자체가 identifier를 가지고 있는 transductive learning에서는 GNN에 비해 그렇게 큰 성능 개선을 보이지 않았음을 보였습니다. 제안된 framework이 position-aware 하다는 것을 주장하려는 논조로 보였습니다.
+
+   Position을 지정하기 위해 '최단 경로'를 쓰는 것이 모든 graph에 유효할지에 대한 의문이 있습니다. 그리고 isomorphic network 이외의 case에는 범용성있게 쓰일 수 있는 framework인가에 대한 생각이 듭니다.
+   Anchor-set sampling, distance-weighted aggreation 연산이 추가되면서, 기존 GNN와 비교하여 계산 복잡도는 어떠한지, 모델이 어떻게 node를 분류했는지에 대해 해석하는데 어려움이 있었습니다.
+
 
 - presenter: HyunGeun Lee
   date: 02.28.2024
