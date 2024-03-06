@@ -1,8 +1,8 @@
 - presenter: Yeonghak Jeong
   date: 04.18.2024
-  paper: "Diffusion Improves Graph Learning"
-  authors: Gasteiger et al.
-  url: https://arxiv.org/abs/1911.05485
+  paper: "D-VAE: A Variational Autoencoder for Directed Acyclic Graphs"
+  authors: Zhang et al.
+  url: https://arxiv.org/abs/1904.11088
   location: "산학기술관 702-1"
   summary: >
 
