@@ -1,4 +1,12 @@
 - presenter: YeongHak Jeong
+  date: 05.2024
+  paper: "Stochastic Variational Inference for Hidden Markov Models"
+  authors: Foti et al.
+  url: https://arxiv.org/abs/1411.1670
+  location: "산학기술관 702-1"
+  summary: >
+
+- presenter: YeongHak Jeong
   date: 04.2024
   paper: "D-VAE: A Variational Autoencoder for Directed Acyclic Graphs"
   authors: Zhang et al.
