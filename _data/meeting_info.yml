@@ -8,8 +8,7 @@
     Summary :  본 논문은 기존 grid data에서 적용되던 U-Nets을 graph에서 적용하고자 하였습니다.   Graph Pooling Layer와 Graph unPooling Layer를 통해 Network embedding을 수행합니다. gPool layer에서는 trainable projection vector p와 k-max pooling을 통해서 sub graph를 생성합니다. unPool layer에서는 만들어진 sub graph를 기반으로 기존의 그래프 형태로 복구시키는 작업을 수행합니다. 
     Strengthen :  기존의 그래프에서 더 중요한 노드에 가중치를 줄 수 있습니다. 또한 graph connectivity augmentation via graph power 등의 방법을 이용하여 GCN을 더욱 효과적으로 사용하고 있습니다. 
     Weakness : COLLAB datasets의 경우 비교 모델인 DiffPool-DET보다 낮은 성능을 보여주고 있습니다. 또한, 변형된 GCN을 사용하고 있는데, 기존의 GCN을 사용한 결과와의 차이를 보여주지 않습니다.
-    Question : 변형된 GCN을 사용하고 있는데, 기존의 GCN을 사용한 결과와 얼마나 유의미한 차이가 있는가 궁금합니다. 
-또한 저널 클럽 시간에 이야기한 것처럼 edge feature를 이용해서 classification을 하는 방법에 대해서 궁금해졌습니다. 
+    Question : 변형된 GCN을 사용하고 있는데, 기존의 GCN을 사용한 결과와 얼마나 유의미한 차이가 있는가 궁금합니다. 또한 저널 클럽 시간에 이야기한 것처럼 edge feature를 이용해서 classification을 하는 방법에 대해서 궁금해졌습니다. 
 
 - presenter: YeongHak Jeong
   date: 03.07.2024
