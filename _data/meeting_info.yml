@@ -1,10 +1,18 @@
+- presenter: Seungwon Yu
+  date: 04.04.2024
+  paper: "Parameterized Explainer for Graph Neural Network"
+  authors: Luo et al.
+  url: https://arxiv.org/pdf/2011.04573.pdf
+  location: "산학기술관 702-1"
+  Summary : >
+
 - presenter: Ung Hwang
   date: 03.28.2024
   paper: "Future Directions in Foundations of Graph Machine Learning"
   authors: Morris et al.
   url: https://arxiv.org/pdf/2402.02287.pdf
   location: "산학기술관 702-1"
-  Summary :
+  Summary : >
     본 논문에서는 기존의 1-WL test의 기준에만 focus를 둔 취지의 논문들과 또 그것을 용인하는 듯한 학회들의 반응에 대해 의문을 던지며 본 논문을 작성하였습니다. 제안된 논문들이 현실에서 잘 작동 안되는 이유들이 있는데, 그것들을 표현력, 일반화 능력, 최적화의 문제로 접근하여 주로 레퍼런스를 같이 소개하면서 문제들을 조명합니다.
     Strength :
     기존에 발표된 다수의 논문들과 GNN 모델의 성능 측정면에서 다각적인 차원(표현력, 일반화 능력, 최적화) 에서 바라 볼 수 있게 다양한 문제를 제기해줍니다. 그 중에서 그 문제를 해결하기 좋은 접근 방법을 제시한 논문들을 소개해주는 방식으로 어떤 포인트로 문제 해결을 위해 접근할 수 있는지를 알려줍니다.
