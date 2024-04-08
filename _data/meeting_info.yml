@@ -21,6 +21,10 @@
   url: https://arxiv.org/pdf/2011.04573.pdf
   location: "산학기술관 702-1"
   summary : >
+    summary : 본 논문은 single instance 를 target으로 하는 GNNExplainer의 성능을 개선하기 위해 mutual information 값의 loss로 직접적인 mask update를 진행하지 않고 mask의 확률값을 binary concrete distribution으로 나타내고 해당 분포의 변수인 latent variable w 의 값을 학습하는 방식을 사용합니다.
+    학습된 parameter 각 edge가 존재할 확률값을 구하는데 쓰이며 해당 값은 양쪽 node의 feature representation을 concat한 값을 입력으로 합니다.
+    strength : 해당 논문은 GNNExplainer 대비 높은 성능과 훨씬 빠른 속도를 보여줍니다. 각 node 및 각 graph에 대하여 새로 학습을 진행하고 inference를 해야하는 GNNExplainer 대비 연산량의 큰 감소를 보이고 있습니다.
+    weekness : 표현되는 subgraph의 크기를 제한하는 buget constraint term과 같은 node를 포함하는 edge를 연결하는 connectivity constraint term 에 대한 설명이 조금 부실합니다. 해당 constraint는 subgraph를 구성하는 중요한 요소임에도 불구하고 너무 간략하게만 설명되어있습니다.
 
 - presenter: Ung Hwang
   date: 03.28.2024
