@@ -13,6 +13,13 @@
   url: https://arxiv.org/abs/2101.06861
   location: "산학기술관 702-1"
   summary: >
+    summary : 본 논문은 graph structure를 학습하는 multivariate time series forecasting model을 소개합니다. 
+      GTS(graph for time series)는 NRI, DCRNN를 포함하는 baselines과 비교해서 time series forecasting 성능에 더 좋은 성능을 가집니다.
+      논문은 graph structure의 priori knowledge가 더 나은 forecasting quality를 만드는 것에 도움을 준다고 말합니다. 
+    strength : NRI와는 달리 같은 time series에서 같은 graph structure를 생성합니다. DCRNN을 사용함으로써 multivariate time series 데이터를 잘 분석할 수 있습니다. 
+    weakness : 상황에 따라 다른 structure를 가지는 것이 더 real world data에 가까울 것입니다.
+    question : Dot product를 사용하지 않고 concat을 하는 이유가 궁금합니다. 저희 연구에서 T-GCN이나 DCGRU 대신 일반적인 gru를 사용한 이유가 궁금합니다. 
+      Mulivariate Dynamic의 real connectivity를 추론하는 논문의 발전 방향이 궁금합니다. 
 
 - presenter: Seungwon Yu
   date: 04.04.2024
