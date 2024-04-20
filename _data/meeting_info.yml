@@ -1,8 +1,8 @@
 - presenter: YeongHak Jeong
   date: 05.02.2024
-  paper: "Graph Markov Neural Networks"
-  authors: Qu et al.
-  url: https://arxiv.org/abs/1905.06214
+  paper: "DenseHMM: Learning Hidden Markov Models by Learning Dense Representations"
+  authors: Sicking et al.
+  url: https://arxiv.org/abs/2012.09783
   location: "산학기술관 702-1"
   summary: >
 
