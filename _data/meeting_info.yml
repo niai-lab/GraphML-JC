@@ -1,3 +1,11 @@
+- presenter: YeongHak Jeong
+  date: 04.25.2024
+  paper: "Graph Markov Neural Network"
+  authors: Qu et al.
+  url: https://arxiv.org/abs/1905.06214
+  location: "산학기술관 702-1"
+  summary: >
+
 - presenter: HyunGeun Lee
   date: 04.18.2024
   paper: "LFADS - Latent Factor Analysis via Dynamical Systems"
