@@ -5,6 +5,14 @@
   url: https://arxiv.org/abs/2012.09783
   location: "산학기술관 702-1"
   summary: >
+
+- presenter: Miseon Park
+  date: 05.02.2024
+  paper: "Unified Training of Universal Time Series Forecasting Transformers, Large Language Models Are Zero-Shot Time Series Forecasters, A decoder-only foundation model for time-series forecasting"
+  authors: -
+  url: 
+  location: "산학기술관 702-1"
+  summary: >
   
 - presenter: HyunGeun Lee
   date: 04.18.2024
