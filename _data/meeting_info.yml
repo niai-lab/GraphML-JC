@@ -4,7 +4,16 @@
   authors: Sicking et al.
   url: https://arxiv.org/abs/2012.09783
   location: "산학기술관 702-1"
-  summary: >
+  summary: > 
+   [Summary] DenseHMM은 hidden states와 observables의 dense representation을 학습할 수 있도록 수정된 HMM입니다. 이는 HMM의 transition probability를 kernalization 함으로써 구현할 수 있습니다. 
+   이러한 수정은 constrain이 없는 gradient 기반 optimization을 가능하게 합니다. 논문에서 두 가지 optimization 방법 - Baum-Welch 알고리즘의 수정된 버전과 Co-occurence 최적화 방법을 제시합니다.
+   후자의 방법은 scalable 하며 기존 HMM에 비해 성능이 향상된다는 점을 synthetic data와 biology/medical data을 사용하여 실험적으로 보였습니다. 
+   Kernelization의 non-linearity가 표현의 풍부함을 높이는데 중요한 역할을 한다는 것을, HMM의 수학적 이론을 기반으로 설명하고 있습니다.
+
+   [Strength] 이 논문은 Dense Representation의 장점을 HMM을 기반으로 설명했고, Sequential Data를 Modeling할 수 있는 다양한 방법과 함께 integration 했을 때의 가능성이 기대됩니다.
+   [Weakness] 다만 Dense Representation 자체가 내부 동작을 해석하기 어렵게 할 수 있고, 그 표현이 만드는 계산 비용도 고려해야 할 것입니다. 그리고 EM optimization한 DenseHMM의 성능이 좋지 않은데, 그래서 co-occurence라는 optimization 방법도 같이 제시한 것인지, 두 optimization이 어떠한 관계가 있는지 파악하는 데 개인적인 어려움이 있었습니다.
+
+   
 
 - presenter: Miseon Park
   date: 05.02.2024
