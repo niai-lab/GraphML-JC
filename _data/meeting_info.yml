@@ -13,8 +13,6 @@
    [Strength] 이 논문은 Dense Representation의 장점을 HMM을 기반으로 설명했고, Sequential Data를 Modeling할 수 있는 다양한 방법과 함께 integration 했을 때의 가능성이 기대됩니다.
    [Weakness] 다만 Dense Representation 자체가 내부 동작을 해석하기 어렵게 할 수 있고, 그 표현이 만드는 계산 비용도 고려해야 할 것입니다. 그리고 EM optimization한 DenseHMM의 성능이 좋지 않은데, 그래서 co-occurence라는 optimization 방법도 같이 제시한 것인지, 두 optimization이 어떠한 관계가 있는지 파악하는 데 개인적인 어려움이 있었습니다.
 
-   
-
 - presenter: Miseon Park
   date: 05.02.2024
   paper: "Unified Training of Universal Time Series Forecasting Transformers, Large Language Models Are Zero-Shot Time Series Forecasters, A decoder-only foundation model for time-series forecasting"
