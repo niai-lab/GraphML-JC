@@ -1,3 +1,16 @@
+- presenter: Ung Hwang
+  date: 05.16.2024
+  paper: "Graph Contrastive Learning with Cohesive Subgraph Awareness"
+  authors: You et al.
+  url: https://arxiv.org/pdf/2401.17580
+  location: "산학기술관 702-1"
+  summary: >
+    GCL(Graph Contrastive Learning) 알고리듬에서 Subgraph structure(k-core, k-truss) 정보를 이용해 중요도를 판별하고 얻은 중요도 정보를 이용해 더 나은 augmentation을 하여 contrastive learning을 수행했을때이 성능 향상을 얻을 수 있도록 개선했습니다. 
+    또한 GSN(graph substructure network) 논문에서 사용한 substructure 정보를 이용하는 방법을 현재의 augmentation 방식에 알맞도록 보완하는 방식을 제안하여 성능 향상을 얻도록 하였습니다.  
+    Strength : 높은 평균 차수를 가지는 그래프 데이터셋(Ex. Social networks)에서 논문이 제안하는 방식에서 높은 개선 성능을 얻을 수 있었습니다.
+    Weakness : k-core, k-truss 정보가 잘 활용되기 어려운(Cohesive함을 상대적으로 찾기 어려운) 낮은 평균 차수의 그래프(ex. 분자 정보 등)에선 논문이 제안하는 방식에서 높은 평균 성능 향상을 확인할 수 없었습니다.
+    Question : 노드의 중요도는 꼭 Cohesive해야만 높아지는 걸까요? 그래프의 특성과 성질에 맞게 모델의 예측에 주요하게 적용될 만한 다른 기준들이 있을 것 같습니다.
+
 - presenter: YeongHak Jeong
   date: 05.09.2024
   paper: "DenseHMM: Learning Hidden Markov Models by Learning Dense Representations"
