@@ -5,6 +5,18 @@
   url: https://arxiv.org/abs/1802.08773
   location: "산학기술관 702-1"
   summary: > 
+
+- presenter: Seungwon Yu
+  date: 05.23.2024
+  paper: "Higher-Order Explanations of Graph Neural Networks via Relevant Walks"
+  authors: Thomas Schnake et al.
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9547794
+  location: "산학기술관 702-1"
+  summary : >
+    summary : 해당 논문은 Explainable AI 방법인 LRP를 graph에 적용하여 그래프에서 적용되는 흐름을 Relevance walk 라는 개념을 도입하여 모든 walk에 relevance score를 부여합니다.
+    해당 방법을 통해서 그래프에서 network를 통과할 때 발생하는 모든 walk에 대해 LPR를 적용하여 relevance score를 부여하는 방법을 제시하고 있습니다.
+    strength : 이전 Purturvation 방식과는 다르게 해당 graph structure 자체를 건드려서 중요도를 구하지 않고 입력의 흐름에 따라 가중치를 부여하여 조금 더 직관적인 해석이 가능합니다.
+    weekness : 정랑적 지표로의 비교가 불분명합니다. 저자들이 제안하는 비교 방식으로 GNN-Explainer과 PGExplainer 과의 비교에 대한 설명이 조금 부족합니다.
    
 - presenter: Ung Hwang
   date: 05.16.2024
