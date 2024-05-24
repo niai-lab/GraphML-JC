@@ -1,11 +1,3 @@
-- presenter: YeongHak Jeong
-  date: 06.06.2024
-  paper: "GraphRNN: Generating Realistic Graphs with Deep Auto-regressive Models"
-  authors: You et al.
-  url: https://arxiv.org/abs/1802.08773
-  location: "산학기술관 702-1"
-  summary: > 
-
 - presenter: Seungwon Yu
   date: 05.23.2024
   paper: "Higher-Order Explanations of Graph Neural Networks via Relevant Walks"
