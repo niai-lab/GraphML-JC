@@ -4,7 +4,7 @@
   authors: Albert Gu, Tri Dao
   url: https://arxiv.org/abs/2312.00752
   location: "산학기술관 702-1"
-  summary: |
+  summary: >
     summary : Transformer는 finite window의 정보에 의존한다는 것과 O(n^2)의 computational cost를 가진다는 단점이 있습니다. 이 문제를 해결하고자 Structured state space sequence model에 selection mechanism과 hardware-aware algorithm을 추가한 모델을 제안합니다. 
     strength : Mamba는 sequence length에 linear한 cost를 가지면서 transformer model과 비슷한 performance를 가집니다. 
     weakness : 많은 수의 파리미터와 데이터로 훈련을 하지 않아 LLM과 비교한 결과를 보여주지 못했습니다.
