@@ -1,11 +1,3 @@
-- presenter: Yeonghak Jeong
-  date: 06.20.2024
-  paper: "The Tolman-Eichenbaum Machine: Unifying Space and Relational Memory through Generalization in the Hippocampal Formation"
-  authors: James C.R. Whittington, Timothy H. Muller, Shirley Mark, Guifen Chen, Caswell Barry, Neil Burgess, Timothy E.J. Behrens
-  url: https://www.sciencedirect.com/science/article/pii/S009286742031388X
-  location: "산학기술관 702-1"
-  summary: >
-
 - presenter: Wooyul Jung
   date: 05.30.2024
   paper: "Mamba: Linear-Time Sequence Modeling with Selective State Spaces"
