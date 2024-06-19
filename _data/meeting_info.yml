@@ -1,3 +1,11 @@
+- presenter: Miseon Park
+  date: 06.20.2024
+  paper: "Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time, TIES-Merging: Resolving Interference When Merging Models, Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch"
+  authors: 
+  url: 
+  location: "산학기술관 702-1"
+  summary: >
+
 - presenter: Wooyul Jung
   date: 05.30.2024
   paper: "Mamba: Linear-Time Sequence Modeling with Selective State Spaces"
