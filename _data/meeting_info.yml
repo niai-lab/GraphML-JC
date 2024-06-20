@@ -5,6 +5,23 @@
   url: 
   location: "산학기술관 702-1"
   summary: >
+    1. Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time ﻿
+    [Summary] 여러개의 모델을 합쳐서 하나의 단일 모델로 만듦에도 성능을 유지 및 향상시키고자 합니다. Fineteunig된 모델들의 파라미터들의 평균을 활용하는 uniform soup과 validation의 값을 활용하는 greedy soup에 대해서 이야기하고 있습니다.
+    [Strength] 단순한 방법을 통해서 적은 리소스와 계산량으로 실행이 가능합니다. finetuning한 모델들을 합쳐서 하나의 단일모델로서 좋은 성능을 발휘합니다.
+    [Weakness] Uniform soup 같은 경우 성능의 감소가 조금 있었고, greedy soup은 validation set이 필요하다는 한계가 있습니다. 
+    [Question] Greedy soup에서는 valiation set accuracy 기준 내림차순으로 모델을 할용합니다. 모델의 순서가 최종 결과에 영향을 주지는 않을까요?
+
+    2. TIES-Merging: Resolving Interference When Merging Models
+    [Summary] Finetuning된 모델과 Pretrained된 모델 파라미터간의 차이를 이용하는 방법입니다. 성능 감소의 원인으로 redundant parameter와 sign conflict를 이야기하고 있습니다. Trim, Elect Sign, Merge의 세 단게를 통해서 모델을 좀 더 효과적으로 병합합니다. 
+    [Strength] model soup, fisher mean, task arithmetic 등 다양한 방법보다 대부분 좋은 성능을 보여줬습니다. Validation set을 활용할 수 없는 경우에도 좋은 성능을 보여줍니다. 
+    [Weakness] 기존의 merging방법에 비해서 구현이 복잡하고, validation set이 없는 경우에도 사용은 가능하지만, 성능은 저하되는 결과를 보입니다. 
+    [Question] magnitude만을 통해서 redundant parameter와 influental parameter를 구분할 수 있을까요? 
+
+    3. Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch
+    [Summary] merging을 실행하기 전에 task vector를 전처리 해주는 방법입니다. p의 확률로 masking, 1/(1-p)로 rescailing하는 방법을 통해서 parameter 간의 중복을 통한 성능 하락을 방지합니다. 
+    [Strength] 다양한 병합 방법에 함께 사용됨으로서 최종 결과의 성능을 향상시킬 수 있습니다. 
+    [Weakness] DARE의 사용이 무조건적인 성능 향상을 보장하지 않습니다. 때로는 성능의 하락을 가져오기도 합니다.   
+    [Question] 무작위 masking 때문에 influential parameter가 제거된다면, 오히려 성능에 악영향을 가져오지 않을까 궁금합니다. 또한, 기존 parameter의 정보를 활용하면서 masking할 수 있는 방법이 있지 않을까 고민이 됩니다. 
 
 - presenter: Wooyul Jung
   date: 05.30.2024
