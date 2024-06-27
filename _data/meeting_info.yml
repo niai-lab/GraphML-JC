@@ -1,3 +1,17 @@
+- presenter: Wooyul Jung
+  date: 06.27.2024
+  paper: "Energy Transformer"
+  authors: Benjamin Hoover et al.
+  url: https://arxiv.org/abs/2302.07253
+  location: "산학기술관 702-1"
+  summary: >
+    summary : Hopfield network에서 영향을 받은 Energy function을 제안하고 이를 최소화하는 Energy Transformer layer를 소개합니다.
+    strength : 수학적 기반이 잘 정립된 Assosiative memory를 가지는 Hopfield network를 적용하였습니다. 또한 attention mechanism을 변경하여는 Energy attention를 제안합니다. Graph anomaly detection task에서 우수한 성능을 가집니다.
+    weakness : Image reconstruction이나 graph classification에서는 다른 transformer 모델들에 비해 다소 성능이 낮습니다.
+    question : Hierarchical하고 local한 메모리를 가지는 hopfield model을 개발한다면 energy attention 없이 hopfield network만으로 좋은 결과를 낼 수 있을 것 같습니다. 
+              또한 classical hopfield network에서 continous attractor를 구현하고 local한 pattern을 인식하는 방향의 발전이 궁금합니다. 
+              Graph node classification 수행에 장점을 가지는 것이 수학이나 논리적 사고에 연관을 가지는 것 같습니다.
+
 - presenter: Miseon Park
   date: 06.20.2024
   paper: "Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time, TIES-Merging: Resolving Interference When Merging Models, Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch"
