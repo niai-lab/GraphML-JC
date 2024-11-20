@@ -5,10 +5,10 @@
   url: https://arxiv.org/pdf/2106.06947
   location: "산학기술관 702-1"
   summary: >
-    summary : multivariate time series anomaly detection을 위해 GDN을 소개하고 있습니다. 
-    strength : Graph Attention Network와 Node embedding을 활용하여, variate간 상관관계에 대해 잘 파악하고 있습니다. 
-    weakness : dataset으로 WADI, SWaT 2가지 만을 사용하고 있고, 이전 년도에 나온 GNN 기반 모델에 대한 비교가 부족합니다. 또한, 실제 dataset과 만들어진 adj matrix 간의 차이를 더 확인이 가능했다면 좋을 것 같습니다. 
-    question : sensor embedding 방법에서 randomly init이 아닌, 어떤 변화를 줄 수 있을지 궁금합니다. 또한, 노드 수에 따른 embedding 표현력 변화 등이 궁금합니다. variate간 상관관계 파악에 중점이 된 것 같은데, temporal information을 좀 더 잘 활용할 수 있는 방법이 있을 것 같습니다. 
+    summary : multivariate time series anomaly detection을 위해 GDN을 소개하고 있습니다.  
+    strength : Graph Attention Network와 Node embedding을 활용하여, variate간 상관관계에 대해 잘 파악하고 있습니다.  
+    weakness : dataset으로 WADI, SWaT 2가지 만을 사용하고 있고, 이전 년도에 나온 GNN 기반 모델에 대한 비교가 부족합니다. 또한, 실제 dataset과 만들어진 adj matrix 간의 차이를 더 확인이 가능했다면 좋을 것 같습니다.  
+    question : sensor embedding 방법에서 randomly init이 아닌, 어떤 변화를 줄 수 있을지 궁금합니다. 또한, 노드 수에 따른 embedding 표현력 변화 등이 궁금합니다. variate간 상관관계 파악에 중점이 된 것 같은데, temporal information을 좀 더 잘 활용할 수 있는 방법이 있을 것 같습니다.  
 
 - presenter: Wooyul Jung
   date: 06.27.2024
