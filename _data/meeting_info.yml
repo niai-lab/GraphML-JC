@@ -1,3 +1,15 @@
+- presenter: Wooyul Jung
+  date: 11.22.2024
+  paper: "Predictive Attractor Models"
+  authors: Ramy Mounir, Sudeep Sarkar
+  url: https://arxiv.org/abs/2410.02430
+  location: "산학기술관 702-1"
+  summary: >
+    summary : Backpropagation이 없고 catastrophic forgetting을 예방하며 다양한 미래 가능성을 추론하는 확률적 모델인 PAM을 제안합니다. PAM의 학습방법을 State Space Model과 variational inference를 기반으로 수학적으로 기술하였습니다. 
+    strength : Online learning, predictive coding으로 associative memory를 학습하는 방법은 생물학적으로 타당합니다.
+    weakness : 크기가 작고 실험의 종류가 associative memory에 치우져 있습니다. 
+    question : 모델의 파라미터를 늘릴 경우 성능의 증가율이 최근 dnn 모델 등과 비교하여 어느 정도인지 궁금합니다. associative memory를 decision making이나 motor control등의 과제에 적용가능 여부가 궁금합니다. 
+
 - presenter: Miseon Park
   date: 11.15.2024
   paper: "Graph Neural Network-Based Anomaly Detection in Multivariate Time Series"
