@@ -1,3 +1,15 @@
+- presenter: Miseon Park 
+  date: 01.10.2024.
+  paper: "Chronos: Learning the Language of Time Series"
+  authors: Abdul Fatir Ansari et al.
+  url: https://arxiv.org/abs/2403.07815
+  location: "산학기술관 702-1"
+  summary: > 
+    summary : 해당 논문은 LLM을 통해 Time Series Forecasting을 하는 방법을 제안합니다. 시계열 데이터를 scaling, quantization 하는 방법으로 LLM의 input token으로 사용하고 있습니다.
+    strength : 특정 고정된 분포를 사용하지 않고, categorical distribution을 사용함으로서 좀 더 다양한 예상 분포를 나타낼 수 있습니다. 또한 data augmentation을 사용하여 time series dataset의 양적, 질적 한계를 보완하고 있습니다. 
+    weakness : 예측 범위가 제한되어 있기 때문에 strong trend에서는 limitation이 있을 수 있습니다. 
+    question : multi step prediction이지만, one-step prediction과 큰 차이를 모르겠습니다.  
+
 - presenter: Seungwon Yu
   date: 01.03.2024
   paper: "Keypoint-MoSeq: parsing behavior by linking point tracking to pose dynamics"
