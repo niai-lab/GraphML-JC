@@ -5,10 +5,10 @@
   url: https://arxiv.org/abs/2107.11153
   location: "산학기술관 702-1"
   summary: >
-    summary : 해당 논문은 이미지의 object를 분할한 후, GNN의 구조 학습 능력을 통해 객체 간의 추상적 구조를 학습하는 constellation model을 제안합니다. 해당 모델을 통해 추상적 개념의 텍스트 프롬프트 제어를 기대할 수 있습니다.
-    strength : 기존 vision model들의 약점인 추상적 개념 학습을 효과적으로 해보이는 모델입니다. 이를 통해 학습 완료된 모델로 객체의 배열과 같은 추상적 구조를 잘 제어할 수 있습니다. 
-    weakness : 텍스트 input을 multi hot encoding으로 처리하기에 자연어 입력이 제한되어 있습니다. sprite dataset 이외에는 아직 실험이 진행되지 않았습니다.
-    question : 모델에 사용된 decomposing model MONet과 텍스트-이미지 모델 SCAN 대신, Clip과 같은 모델을 적용하는 것이 가능할 지, LSTM 디코더 레이어 전후에 MLP 레이어가 왜 들어가야 하는지, 인코더의 GNN과 위치 정보 추출을 위한 learned mask는 정확히 어떻게 설계되었는지 궁금합니다.
+    Summary : 해당 논문은 이미지의 object를 분할한 후, GNN의 구조 학습 능력을 통해 객체 간의 추상적 구조를 학습하는 constellation model을 제안합니다. 해당 모델을 통해 추상적 개념의 텍스트 프롬프트 제어를 기대할 수 있습니다.<br>
+    Strength : 기존 vision model들의 약점인 추상적 개념 학습을 효과적으로 해보이는 모델입니다. 이를 통해 학습 완료된 모델로 객체의 배열과 같은 추상적 구조를 잘 제어할 수 있습니다.<br>
+    Weakness : 텍스트 input을 multi hot encoding으로 처리하기에 자연어 입력이 제한되어 있습니다. sprite dataset 이외에는 아직 실험이 진행되지 않았습니다.
+    
   
 - presenter: Miseon Park 
   date: 01.10.2025.
@@ -17,10 +17,9 @@
   url: https://arxiv.org/abs/2403.07815
   location: "산학기술관 702-1"
   summary: > 
-    summary : 해당 논문은 LLM을 통해 Time Series Forecasting을 하는 방법을 제안합니다. 시계열 데이터를 scaling, quantization 하는 방법으로 LLM의 input token으로 사용하고 있습니다.
-    strength : 특정 고정된 분포를 사용하지 않고, categorical distribution을 사용함으로서 좀 더 다양한 예상 분포를 나타낼 수 있습니다. 또한 data augmentation을 사용하여 time series dataset의 양적, 질적 한계를 보완하고 있습니다. 
-    weakness : 예측 범위가 제한되어 있기 때문에 strong trend에서는 limitation이 있을 수 있습니다. 
-    question : multi step prediction이지만, one-step prediction과 큰 차이를 모르겠습니다.  
+    Summary : 해당 논문은 LLM을 통해 Time Series Forecasting을 하는 방법을 제안합니다. 시계열 데이터를 scaling, quantization 하는 방법으로 LLM의 input token으로 사용하고 있습니다.<br>
+    Strength : 특정 고정된 분포를 사용하지 않고, categorical distribution을 사용함으로서 좀 더 다양한 예상 분포를 나타낼 수 있습니다. 또한 data augmentation을 사용하여 time series dataset의 양적, 질적 한계를 보완하고 있습니다.<br>
+    Weakness : 예측 범위가 제한되어 있기 때문에 strong trend에서는 limitation이 있을 수 있습니다.
 
 - presenter: Seungwon Yu
   date: 01.03.2025
