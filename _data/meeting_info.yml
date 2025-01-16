@@ -28,12 +28,11 @@
   url: https://www.nature.com/articles/s41592-024-02318-2
   location: "산학기술관 702-1"
   summary: >
-    summary : 해당 논문은 기존 depth 기반 syllable 분해 방법인 moseq의 한계점을 타파하고자 keypoint 기반 moseq인 Keypoint-Moseq를 제안함.
+    Summary : 해당 논문은 기존 depth 기반 syllable 분해 방법인 moseq의 한계점을 타파하고자 keypoint 기반 moseq인 Keypoint-Moseq를 제안함.
     keypoint의 noise가 syllable 분해에 큰 저해요소로 판단하여 frame 별, sensor noise 의 두가지 noise로 모델링 하였으며 동물의 움직을 동역학적으로 모델링하여 높은 성능의 syllable 분해가 가능하도록 함.
-    syllable 분해는 AR-HMM 구조에서 이루어 지며 해당 모델에 선형 동역학 모델과 noise모델을 추가한 Keypoint-Moseq를 완성하였음. 
-    strength : Depth 기반 데이터가 필요하지 않고 일반적인 영상 기반으로 쉽게 동물의 행동을 syllable 단위로 구분할 수 있는 강한 방법을 제시하였음.
-    weakness : syllable 단위의 구분은 가능하지만 구분 된 syllable이 정확히 어떤 행동인지 파악이 힘든 단점이 존재. unlabelled data를 기반으로 한 학습 방법이기에 정확한 행동을 labelling 하기가 힘듬.
-    question : 선형 동역학 시스템의 headning 부분을 von-mises 분포로 부터 샘플링하게 되는데 해당 과정에 왜 이전 데이터를 사용하지 않는지 의문. 일반적으로 동물의 방향은 이전 상태에 영향을 받는다고 생각되는데 각 프레임마다 샘플링을 하는 이유가 궁금함.
+    syllable 분해는 AR-HMM 구조에서 이루어 지며 해당 모델에 선형 동역학 모델과 noise모델을 추가한 Keypoint-Moseq를 완성하였음.<br>
+    Strength : Depth 기반 데이터가 필요하지 않고 일반적인 영상 기반으로 쉽게 동물의 행동을 syllable 단위로 구분할 수 있는 강한 방법을 제시하였음.<br>
+    Weakness : syllable 단위의 구분은 가능하지만 구분 된 syllable이 정확히 어떤 행동인지 파악이 힘든 단점이 존재. unlabelled data를 기반으로 한 학습 방법이기에 정확한 행동을 labelling 하기가 힘듬.
 
 - presenter: Wooyul Jung
   date: 11.22.2024
