@@ -1,3 +1,14 @@
+- presenter: Subin Choi
+  date: 01.24.2025
+  paper: "MONet: Unsupervised Scene Decomposition and Representation"
+  authors: Christopher P. Burgess et al.
+  url: https://arxiv.org/abs/1901.11390
+  location: "산학기술관 702-1"
+  summary: >
+    Summary : 해당 논문은 비지도학습을 통해 multi-object가 있는 scene에서 개별 object를 인식하고 표현하는 모델입니다. UNET을 이용한 attention network를 통해 mask를 추출해내고, 이를 VAE로 보완하여 robust한 visual object decomposition을 가능하게 합니다.<br>
+    Strength : occlusion이 있어도 객체 추론이 가능하며, object 수가 가변적일 때에도 유연하게 표현이 가능합니다. Scene의 element가 분리되어 표현되므로 서로 다른 요소들이 혼합되지 않습니다. latent variable이 독립적인 특성을 제어합니다.<br>
+    Weakness : 자연 이미지나 slot 개수를 초과한 object를 포함한 이미지에서는 decompostion이 어렵습니다.
+
 - presenter: Ingyeom Kim
   date: 01.16.2025
   paper: "Constellation: Learning relational abstractions over objects for compositional imagination"
