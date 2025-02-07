@@ -1,3 +1,16 @@
+- presenter: Seungwon Yu
+  date: 02.07.2025
+  paper: "LLM-TS Integrator: Integrating LLM for Enhanced Time Series Modeling"
+  authors: Can Chen et al.
+  url: https://arxiv.org/pdf/2410.16489
+  location: "산학기술관 702-1"
+  summary: >
+    Summary : 해당 논문은 Time series model time series representation과 LLM model의 pattern recognition capability을 mutual information maximization 방식을 사용하여 효율적으로 병합하는 방식을 제안하였음.
+    간단한 time series 의 background information과 statistical information 기반의 template 정보를 LLM의 입력으로 사용하여 text representation을 추출하며 TimesNet의 time series representation에 해당 정보가 최대한 포함되도록 학습함.
+    prediction loss와 mutual information loss의 중요도를 조절하는 weighting network를 적용하여 학습의 최적화를 도모함.<br>
+    Strength : LLM의 정보를 기반으로 TS model을 학습하여 inference 시 복잡도를 낮추며 LLM의 강한 성능이 포함되도록 함.<br>
+    Weakness : text template 에 포함된 정보가 너무 적어 실제러 time series representation에 큰 영향을 미치지 못함.
+
 - presenter: Subin Choi
   date: 01.24.2025
   paper: "MONet: Unsupervised Scene Decomposition and Representation"
