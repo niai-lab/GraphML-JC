@@ -9,7 +9,7 @@
     간단한 time series 의 background information과 statistical information 기반의 template 정보를 LLM의 입력으로 사용하여 text representation을 추출하며 TimesNet의 time series representation에 해당 정보가 최대한 포함되도록 학습함.
     prediction loss와 mutual information loss의 중요도를 조절하는 weighting network를 적용하여 학습의 최적화를 도모함.<br>
     Strength : LLM의 정보를 기반으로 TS model을 학습하여 inference 시 복잡도를 낮추며 LLM의 강한 성능이 포함되도록 함.<br>
-    Weakness : text template 에 포함된 정보가 너무 적어 실제러 time series representation에 큰 영향을 미치지 못함.
+    Weakness : text template 에 포함된 정보가 너무 적어 실제로 time series representation에 큰 영향을 미치지 못함.
 
 - presenter: Subin Choi
   date: 01.24.2025
