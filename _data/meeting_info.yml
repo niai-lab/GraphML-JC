@@ -1,3 +1,15 @@
+- presenter: Ingyeom Kim
+  date: 02.20.2025
+  paper: "Object-Centric Learning with Slot Attention"
+  authors: Francesco Locatello et al.
+  url: https://arxiv.org/abs/2006.15055
+  location: "산학기술관 702-1"
+  summary: >
+    Summary : 해당 논문은 attention module의 능력을 이용해 이미지에서 object들을 분할하는 slot attention model을 설명합니다.<br>
+    Strength : 기존 MONet, IODINE, DSPN 모델 등 보다 분할 성능이 좋고 메모리 역시 효율적으로 이용합니다. 현재 해당 분야에서 가장 보편적으로 쓰이는 모델 중 하나입니다. 적은 수의 object로 학습시켜도 많은 object를 분할하는 모델을 만들 수 있습니다. 색상 정보에 의존하지 않기에 흑백 이미지에도 적용 가능합니다.<br>
+    Weakness : attention module이 어떤 원리로 분할 성능을 향상시키는지에 대한 정보가 부족합니다.
+    
+
 - presenter: Seungwon Yu
   date: 02.07.2025
   paper: "LLM-TS Integrator: Integrating LLM for Enhanced Time Series Modeling"
