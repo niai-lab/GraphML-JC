@@ -8,7 +8,22 @@
     Summary : 해당 논문은 attention module의 능력을 이용해 이미지에서 object들을 분할하는 slot attention model을 설명합니다.<br>
     Strength : 기존 MONet, IODINE, DSPN 모델 등 보다 분할 성능이 좋고 메모리 역시 효율적으로 이용합니다. 현재 해당 분야에서 가장 보편적으로 쓰이는 모델 중 하나입니다. 적은 수의 object로 학습시켜도 많은 object를 분할하는 모델을 만들 수 있습니다. 색상 정보에 의존하지 않기에 흑백 이미지에도 적용 가능합니다.<br>
     Weakness : attention module이 어떤 원리로 분할 성능을 향상시키는지에 대한 정보가 부족합니다.
-    
+ 
+- presenter: Miseon Park
+  date: 02.13.2025
+  paper: "Unified Training of Universal Time Series Forecasting Transformers, MOIRAI-MOE: EMPOWERING TIME SERIES FOUNDATION MODELS WITH SPARSE MIXTURE OF EXPERTS"
+  authors: Woo et al.
+  url: https://arxiv.org/abs/2402.02592
+  location: "산학기술관 702-1"
+  summary: >
+    "Unified Training of Universal Time Series Forecasting Transformers" <br>
+    Summary : 본 논문은 Transformer masked-encoder 구조와 multi patch size를 통해 다양한 frequency, variate에서 사용 가능한 time series forecasting foundation model을 제안함. <br>
+    Strength : in-distribution과 out-distribution 모두 좋은 성능을 보여줌. Multivariate time series dataset을 flatten하여 입력하는 방식을 통해, 다양한 time series dataset에 대한 예측을 가능케함. <br>
+    Weakness : patch size의 결정이 heuristic하다는 한계가 있음. transformer 입력 길이의 한계 존재.<br>
+    "MOIRAI-MOE: EMPOWERING TIME SERIES FOUNDATION MODELS WITH SPARSE MIXTURE OF EXPERTS" <br>
+    Summary : 기존의 moriai를 single patch size (projection layer)와 tranformer decoder-only 변형하여 Mixture of Expert(MoE)를 도입함. <br>
+    Strength : time series forecasting task에 moe를 처음 적용했음을 주장. token-level specialization을 통해 기존 moirai의 token size에 대한 heuristic한 의존도를 줄임. 기존 moriai의 모든 size 성능을 뛰어넘는 결과를 보여줌. <br>
+    Weakness : Activate 되는 parameter의 수는 감소되었다고 주장하지만, 모델의 전체 용량/크기 증가함. Gating(Routing)이 사전 학습된 모델의 임베딩에 의존한다는 한계가 있음. 
 
 - presenter: Seungwon Yu
   date: 02.07.2025
