@@ -1,3 +1,14 @@
+- presenter: Subin Choi
+  date: 02.27.2025
+  paper: "Learning Transferable Visaul Models From Natural Language Supervision"
+  authors: Alec Radford et al.
+  url: https://arxiv.org/abs/2103.00020
+  location: "산학기술관 702-1"
+  summary: >
+    Summary : 본 논문은 대규모 (image, text) 쌍 data를 이용하여 멀티모달 embedding의 generality, robustness를 향상시킨 모델입니다. text와 image를 각각의 전용 encoder를 통해 임베딩 한 후, 공통 벡터 공간에서의 정렬을 위해 contrastive learning을 이용합니다.<br>
+    Strength : zero-shot transfer를 활용하여 별도의 데이터 없이도 다양한 task 수행이 가능합니다. Zero-shot CLIP 모델이 동등한 정확도의 supervision 모델인 ImageNet보다 훨씬 더 robust합니다.<br>
+    Weakness : 기본적인 supervised 모델과 비슷한 수준일 뿐, 최신 supervised SOTA 모델보다는 성능이 낮습니다. 새로운 문장을 생성하는 것이 아니라 주어진 이미지에 대한 가장 적절한 문장을 선택하는 방식으로 작동하기 때문에 사용자가 정답 label 후보를 설정해야 합니다. 
+
 - presenter: Ingyeom Kim
   date: 02.20.2025
   paper: "Object-Centric Learning with Slot Attention"
