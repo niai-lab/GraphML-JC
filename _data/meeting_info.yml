@@ -1,3 +1,14 @@
+- presenter: Seungwon Yu
+  date: 02.07.2025
+  paper: "Medformer: A Multi-Granularity Patching Transformer for Medical Time-Series Classification"
+  authors: Yihe Wang et al.
+  url: https://arxiv.org/abs/2405.19363
+  location: "산학기술관 702-1"
+  summary: >
+    Summary : 본 논문은 의료 시계열 데이터의 classification을 위한 multi-granularity embedding 및 mulit granularity 끼리의 정보 교환을 위한 router term 방식을 제안함. 의료 시계열 분류를 위하여 subject independent 방식을 주장하며 multi variate, multi time 의 data를 토큰으로 변환하는 embedding 방식을 사용함..<br>
+    Strength : 의료 시계열 데이터(eeg)등의 데이터에서 중요한 부분을 embedding dim으로 변환하기 위해 여러 scale의 embedding을 사용하여 높은 성능을 보임.<br>
+    Weakness : granularity의 분할이 자동으로 진행되지 않아 여러가지의 조합을 전부 적용해야 하는 불편함이 존재.
+
 - presenter: Subin Choi
   date: 02.27.2025
   paper: "Learning Transferable Visaul Models From Natural Language Supervision"
