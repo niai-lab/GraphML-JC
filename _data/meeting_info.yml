@@ -1,3 +1,14 @@
+- presenter: Miseon Park 
+  date: 03.14.2025
+  paper: "Time-MoE: Billion-Scale Time Series Foundation Models with Mixture of Experts"
+  authors: Xiaoming Shi et al.
+  url: https://arxiv.org/abs/2409.16040
+  location: "산학기술관 702-1"
+  summary: >
+    Summary: 본 논문은 sparse MoE + decoder-only transformer 구조를 활용한 time series forecasting 모델로, Huber Loss, SwiGLU, RMSNorm, RoPE 등 다양한 기술을 적용하여 일반화된 예측 성능을 향상시켰다. <br>
+    Strength: multi-resolution head를 통한 다양한 horizon length 예측 가능. zero-shot 과 in-distribution forecasting 모두 높은 성능을 보임. shared expert 구조를 통해 common knowledge를 유지하면서도 top-k expert를 활용하여 token 별 특징을 효과적으로 반영.<br>
+    Weakness: channel independence 구조를 통한 예측으로 uni-variate time series forecasting에 가까움. <br>
+
 - presenter: Seungwon Yu
   date: 03.07.2025
   paper: "Medformer: A Multi-Granularity Patching Transformer for Medical Time-Series Classification"
