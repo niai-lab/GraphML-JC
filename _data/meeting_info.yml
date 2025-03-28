@@ -1,3 +1,14 @@
+- presenter: Subin Choi
+  date: 03.28.2025
+  paper: "Scene Representation Transformer: Geometry-Free Novel View Synthesis Through Set-Latent Scene Representations"
+  authors: Mehdi S. M. Sajjadi et al.
+  url: https://arxiv.org/abs/2111.13152
+  location: "산학기술관 702-1"
+  summary: >
+    Summary : 이 논문은 interactive rates으로 few images만 가지고 novel views on 3D scene representation을 infer하기 위해 transformer를 사용하여 확장가능한 latent representation을 학습하고, learned attention mechansim을 활용합니다. <br>
+    Strength : 강력한 일반화 능력과 높은 효율성을 갖습니다. explicit locally-conditioned geometry에 의존하지 않고 대신 모델이 전역적으로 추론 가능합니다. 복잡한 장면에 대한 scalabilty, 노이즈가 많은 카메라 poses(poses가 없는 경우 포함), semantic segmentation에서도 뛰어난 성능을 보입니다.<br>
+    Weakness : 픽셀 단위에서의 정확한 ray 변환을 학습하는 과정에서 불확실성이 발생하고, L2 loss가 불확실성이 클수록 흐림을 유발하므로 다른 loss function을 적용하는 연구가 필요합니다. transformer기반 모델이라 작은 데이터셋에서의 성능은 기대하기 힘듭니다. sparse input& noisy pose에서 강하지만 가까운 view에서는 geomery 방법보다 성능이 낮다.
+
 - presenter: Ingyeom Kim
   date: 03.21.2025
   paper: "Provably Learning Object-Centric Representations, Towards Object-Centric Learning with General Purpose Architectures"
