@@ -1,3 +1,14 @@
+- presenter: Ingyeom Kim
+  date: 05.09.2025
+  paper: "Provably Learning Object-Centric Representations"
+  authors: Jack Brady et al.
+  url: https://arxiv.org/abs/2305.14229
+  location: "산학기술관 702-1"
+  summary: >
+    Summary : 해당 논문들은 Object centric learning을 기존의 실험 기반의 모델들에서 벗어나 이론적으로 고찰합니다. (발표 수업 연습 목적으로 발표 했던 것 재발표)<br>
+    Strength : Object centric learning의 성패가 latent의 분포가 아닌 모델이 compositionality와 invertibility를 만족하는지에 달려 있음을 밝혀냈고, 이론에 기반하였기에 더 일반적이고 효율적인 loss 구조와 모델을 만들어 내었습니다.<br>
+    Weakness : 완성된 모델에 관한 정보 및 실험이 부족한 모습을 보입니다.(후행논문 Interaction Asymmetry: A General Principle for Learning Composable Abstractions, Brady et al. 에 의해 보강됨).
+
 - presenter: Subin Choi
   date: 03.28.2025
   paper: "Scene Representation Transformer: Geometry-Free Novel View Synthesis Through Set-Latent Scene Representations"
