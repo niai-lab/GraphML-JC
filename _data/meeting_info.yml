@@ -1,3 +1,16 @@
+- presenter: Miseon Park 
+  date: 06.26.2025
+  paper: "This Time is Different: An Observability Perspective on Time Series Foundation Models"
+  authors: Ben Cohen et al.
+  url: https://arxiv.org/abs/2505.14766
+  location: "산학기술관 702-1"
+  summary: >
+    Summary : 본 논문에서 제안하는 모델 TOTO는 decoder-only Transformer 구조를 기반으로 한 multivariate time series forecasting 모델로, observability 데이터를 학습에 이용했다.  
+    시간 축과 변수 축 모두를 고려한 time-wise 및 variate-wise attention을 적용하며, 데이터의 분포 특성은 SMM과 robust Cauchy loss로 처리하고, patch causal norm을 통해 future data leakage를 방지한다.
+    대규모 데이터셋인 BOOM을 공개하였다.<br>
+    Strength : time-wise와 var-wise attention을 통해 기존 foundation model의 channel independence 가정과 달리 변수 간 상호작용을 학습할 수 있으며, robust loss와 SMM을 활용해 heavy-tailed 및 nonstationary 데이터에 대해 보다 강건한 성능을 보인다.<br>
+    Weakness : calendar 정보나 meta feature와 같은 외부 시간 정보를 활용하지 않아 시간적 패턴 학습이 제한적이며, 모델 성능 향상이 아키텍처 때문인지 데이터셋 특성 때문인지는 명확히 분리되어 검증되지 않아 일반화 가능성에 의문이 남는다.
+
 - presenter: Ingyeom Kim
   date: 05.09.2025
   paper: "Provably Learning Object-Centric Representations"
