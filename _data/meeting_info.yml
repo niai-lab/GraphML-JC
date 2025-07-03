@@ -1,3 +1,14 @@
+- presenter: Ingyeom Kim
+  date: 07.03.2025
+  paper: "Flexible mapping of abstract domains by grid cells via self-supervised extraction and projection of generalized velocity signals"
+  authors: Abhiram Iyer et al.
+  url: https://openreview.net/forum?id=hocAc3Qit7&referrer=%5Bthe%20profile%20of%20Sugandha%20Sharma%5D(%2Fprofile%3Fid%3D~Sugandha_Sharma1)
+  location: "산학기술관 702-1"
+  summary: >
+    Summary : 해당 논문은 뇌세포 grid cell의 작동방식을 모방하여 물체의 위치 변화와 추상적 변화를 저차원 매핑하는 모델을 다루었다.<br>
+    Strength : object의 성질과 위치 변화, 추상적 변화를 같이 매핑하는 기존 모델들과는 달리 위치 및 추상적 변화만 효율적으로 매핑시킨다. 또한 다른 차원축소법보다 더 매핑을 잘 하는 모습을 확인 가능하였다.<br>
+    Weakness : 현재는 single object밖에 다루지 못하고 실험 설정에서 논리적 오류가 존재하였다.(다만 오류 피하고 재실험시 문제 없던걸로 밝혀짐)
+
 - presenter: Miseon Park 
   date: 06.26.2025
   paper: "This Time is Different: An Observability Perspective on Time Series Foundation Models"
