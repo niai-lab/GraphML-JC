@@ -7,7 +7,7 @@
   summary: >
     Summary : xLSTMAD는 multi variate time series anomaly detection 위해 xLSTM 기반 인코더-디코더 구조를 활용한 최초의 모델이다.<br>
     Strength : Forecasting과 reconstruction 구조를 모두 활용하고, VUS-ROC·VUS-PR 등 다양한 metric을 통해 신뢰도 높은 성능을 입증함.<br>
-    Weakness :  SoftDTW 도입에도 불구하고 MSE 대비 성능 개선이 크지 않으며, forecasting과 reconstruction을 통합하지 않고 별도로 모델링함.<br>
+    Weakness :  SoftDTW 도입에도 불구하고 MSE 대비 성능 개선이 크지 않으며, forecasting과 reconstruction을 통합하지 않고 별도로 모델링함.
 
 - presenter: Ingyeom Kim
   date: 07.03.2025
