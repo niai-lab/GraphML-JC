@@ -1,3 +1,15 @@
+
+- presenter: Seungwon Yu
+  date: 07.18.2025
+  paper: "NetFormer: An interpretable model for recovering dynamical connectivity in neuronal population dynamics"
+  authors: Ziyu et al.
+  url: https://openreview.net/pdf?id=bcTjW5kS4W
+  location: "산학기술관 702-1"
+  summary: >
+    Summary : 동적으로 연결성이 변하는 뉴런 시스템의 connectivty를 추론하기 위하여 attention 기반 dynamic connectivity inference를 가능하게 한 모델임.<br>
+    Strength : dynamic connectivity inference를 가능하게 한 모델이며 다른 방법들에 비해 높은 성능을 보여줌.<br>
+    Weakness :  main experiment에서 dynamic connectivity inference 성능을 report할 수 있는 동적 시스템이 아닌 정적 시스템 데이터를 사용하여 정확한 성능 검증이 어려움.
+
 - presenter: Miseon Park 
   date: 07.11.2025
   paper: "xLSTMAD: A Powerful xLSTM-based Method for Anomaly Detection"
