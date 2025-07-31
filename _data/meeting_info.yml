@@ -1,4 +1,14 @@
-
+- presenter: Ingyeom Kim
+  date: 07.24.2025
+  paper: "Compositional Generalization via Forced Rendering of Disentangled Latents"
+  authors: Qiyao Liang et al.
+  url: https://openreview.net/forum?id=rkHCHI5H5W
+  location: "산학기술관 702-1"
+  summary: >
+    Summary : 해당 논문은 x좌표와 y좌표를 독립적으로 입력한 모델이 학습되지 않은 x,y조합을 생성해낼 수 있는지를 연구하였다. 실험 결과 추가적인 inductive bias 없이는 제대로 새로운 조합을 형성하지 못함을 밝혀냈다.<br>
+    Strength : 독립적인 표현들이 모델에 투입되는 과정에서 서로 얽혀서 독립성을 잃어버릴 가능성을 탐구하여, 앞으로 무엇을 연구해야 하나 방향성을 제시하였다.<br>
+    Weakness : 실험시 solution으로 제안한 inductive bias가 너무 강하여 실용적 모델로써는 아직 적용하기 힘들다.
+    
 - presenter: Seungwon Yu
   date: 07.18.2025
   paper: "NetFormer: An interpretable model for recovering dynamical connectivity in neuronal population dynamics"
