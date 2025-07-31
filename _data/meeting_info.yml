@@ -1,3 +1,14 @@
+- presenter: Subin Choi
+  date: 07.31.2025
+  paper: "Registration based Few-Shot Anomaly Detection"
+  authors: Chaoqin Huang et al.
+  url: https://arxiv.org/abs/2207.07361
+  location: "산학기술관 702-1"
+  summary: >
+    Summary : registration은 서로 다른 이미지를 하나의 좌표 시스템으로 변환하여 비교를 용이하게 하는 과정이다. 이를 통해 적은 수의 dataset으로도 정규분포를 추정하여 anomaly detection을 수행할 수 있다.<br>
+    Strength : 카테고리에 의존하지 않고 적용 가능한 feature registration을 통해 few-shot에서도 fine-tuning 없이 바로 AD를 수행할 수 있으며 fully-supervised model에 비해서도 경쟁력이 있는 성능을 보인다.<br>
+    Weakness : registration은 alignment 학습에 집중하는 anomaly detection에 대한 proxy task이므로 registration을 잘한다고 anomaly 판단을 항상 잘하는지에 대해서는 의문이 있다.
+
 - presenter: Ingyeom Kim
   date: 07.24.2025
   paper: "Compositional Generalization via Forced Rendering of Disentangled Latents"
