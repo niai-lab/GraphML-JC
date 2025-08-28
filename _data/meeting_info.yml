@@ -1,3 +1,13 @@
+- presenter: Ingyeom Kim
+  date: 08.28.2025
+  paper: "Object-centric Compositional Imagination for Visual Abstract Reasoning"
+  authors: Rim Assouel et al.
+  url: https://openreview.net/forum?id=rCzfIruU5x5
+  location: "산학기술관 702-1"
+  summary: >
+    Summary : 해당 논문은 구성적 일반화를 위해 어떤 조건이 필요한지 분석한 논문으로, ARC task의 input-output 이미지 쌍을 입력받았을 때 규칙을 추출해 다른 이미지를 변환시킬 수 있는 모델을 설계하였다.<br>
+    Strength : OOD에서의 일반화 성능을 위해 object단위 이미지 인식, 규칙에서의 조건과 변환 분리 인식, OOD 학습 태스크가 중요함을 밝혀냈다. 실험 결과 또한 깔끔하고 극명하게 나타났다.<br>
+    Weakness : 모델이 상당히 복잡한 구조로 되어있고, 이에 비해 처리하는 태스크는 ARC를 매우 단순화한 것이다.
 - presenter: Subin Choi
   date: 07.31.2025
   paper: "Registration based Few-Shot Anomaly Detection"
@@ -903,5 +913,6 @@
     So this paper suggests featrue extractor at first layer with several geometric priors. (target postion, source position, relative postion, euclidean distance)
     
     By using feature extractor and simplifed DGCNN, we could get good performance in less time and memory.
+
 
 
