@@ -1,3 +1,14 @@
+- presenter: SeungWon Yu
+  date: 09.05.2025
+  paper: "Latent Diffusion for Neural Spiking Data"
+  authors: Jaivardhan Kapoor et al.
+  url: https://arxiv.org/abs/2407.08751
+  location: "산학기술관 702-1"
+  summary: >
+    Summary : 해당 논문은 spike data를 입력으로 받아 해당 spike 의 latent 를 추출하고 해당 추출된 latent로 부터 latent diffusion을 수행하여 neuron dynamics는 유지하되 새로운 생성 데이터를 만드는 방법에 대해서 제안함.<br>
+    Strength : spike data를 S4 encoder를 통해서 성공적으로 latent 를 추출하였으며 latent diffusion 진행한 후의 통계적인 특성도 원본과 매우 일치하는 모습을 보임.<br>
+    Weakness : real spike data를 적용하기 전 입증 단계로써 사용한 Lorenz attractor가 너무 단순한 데이터라고 생각됨. 해당 데이터는 실제로 3 dim latent로 부터 생상되는 데이터기에 이미 저차원의로의 mapping 이 확실시 된 상태의 데이터라서 높은 성능을 보이는 듯 하며 real data의 경우에는 실제로 원본 데이터와의 비교가 가능한 점이 통계적 특성밖에 없어 정확한 비교가 불가능 한 것으로 보임.
+
 - presenter: Ingyeom Kim
   date: 08.28.2025
   paper: "Object-centric Compositional Imagination for Visual Abstract Reasoning"
@@ -913,6 +924,7 @@
     So this paper suggests featrue extractor at first layer with several geometric priors. (target postion, source position, relative postion, euclidean distance)
     
     By using feature extractor and simplifed DGCNN, we could get good performance in less time and memory.
+
 
 
 
