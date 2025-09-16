@@ -1,3 +1,14 @@
+- presenter: Miseon Park 
+  date: 09.12.2025
+  paper: "TSPulse: Dual Space Tiny Pre-Trained Models for Rapid Time-Series Analysis"
+  authors: Vijay Ekambaram et al.
+  url: https://arxiv.org/abs/2505.13033
+  location: "산학기술관 702-1"
+  summary: >
+    Summary : TSPulse는 초소형(1M 파라미터) TSFM, TSMixer의 구조와 dual embedding/masking을 통해 forecasting, anomaly deteciton. classification 등 다양한 시계열 작업을 효율적으로 수행가능하다. <br>
+    Strength : 기존 모델보다 최대 100배 작으면서도 분류·이상탐지·보간 등 여러 작업에서 높은 성능을 발휘한다. 또한 기존 TSFM 대비 lightweight 구조로 다양한 task에 대한 finetuning이 용이하다.<br>
+    Weakness : TSPulse는 장기 예측, 제한된 레이블 데이터, 복잡한 도메인 융합에서 성능 한계를 보입니다.
+    
 - presenter: SeungWon Yu
   date: 09.05.2025
   paper: "Latent Diffusion for Neural Spiking Data"
@@ -924,6 +935,7 @@
     So this paper suggests featrue extractor at first layer with several geometric priors. (target postion, source position, relative postion, euclidean distance)
     
     By using feature extractor and simplifed DGCNN, we could get good performance in less time and memory.
+
 
 
 
