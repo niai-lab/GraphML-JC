@@ -1,3 +1,14 @@
+- presenter: Jaeho Yang 
+  date: 09.17.2025
+  paper: "Neural Relational Inference for Interacting Systems"
+  authors: Thomas Kipf et al.
+  url: https://arxiv.org/abs/1802.04687
+  location: "산학기술관 702-1"
+  summary: >
+    Summary : NRI model은 비지도 방식(unsupervised)으로 observational data에서 직접 interaction graph와 system dynamics를 동시에 학습한다. Variational Auto-Encoder (VAE) 구조를 기반으로, latent code는 상호작용 관계를 표현하고, GNN을 통해 dynamics를 재구성한다. <br>
+    Strength : Observational data에서도 interaction structure를 자동 복원할 수 있어 범용성이 높다. 또한, 단순 예측을 넘어 interpretable structure를 추론할 수 있으며, ground-truth interaction이 없는 복잡계 시스템에도 적용 가능하다. <br>
+    Weakness : NRI 모델은 학습 시 static interaction graph에만 제한된다. 
+
 - presenter: Miseon Park 
   date: 09.12.2025
   paper: "TSPulse: Dual Space Tiny Pre-Trained Models for Rapid Time-Series Analysis"
@@ -935,6 +946,7 @@
     So this paper suggests featrue extractor at first layer with several geometric priors. (target postion, source position, relative postion, euclidean distance)
     
     By using feature extractor and simplifed DGCNN, we could get good performance in less time and memory.
+
 
 
 
