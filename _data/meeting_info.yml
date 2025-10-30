@@ -1,3 +1,14 @@
+- presenter: SeungWon Yu
+  date: 10.24.2025
+  paper: "Dynamic Neural Relational Inference"
+  authors: Colin Graber et al.
+  url: https://openaccess.thecvf.com/content_CVPR_2020/papers/Graber_Dynamic_Neural_Relational_Inference_CVPR_2020_paper.pdf
+  location: "산학기술관 702-1"
+  summary: >
+    Summary : 기존 static system 의 connectivity 를 추론하는 NRI의 개선을 위하여 매 시간마다 connectivity 추론이 가능한 Dynamic NRI를 제안함. LSTM 구조를 사용하여 입력과 기존 embedding 을 활용하는 방식을 적용하였음.<br>
+    Strength : 학습과 추론을 분리하여 전체 데이터를 활용하는 Encoder, 이전 정보만을 활용하는 prior를 설정하여 학습 시에 prior와 Encoder의 분포를 일치시키는 방법을 사용하였음.<br>
+    Weakness : 실험 결과에 connectivity 관련 결과가 너무 적음. dynamic synthetic system을 설계하여 해당 connectivity 추론 결과를 확인할 수 있었으면 더욱 좋은 비교가 가능할 것으로 보임.
+
 - presenter: Ingyeom Kim
   date: 10.17.2025
   paper: "Generalization and Robustness Implications in Object-Centric Learning"
@@ -958,6 +969,7 @@
     So this paper suggests featrue extractor at first layer with several geometric priors. (target postion, source position, relative postion, euclidean distance)
     
     By using feature extractor and simplifed DGCNN, we could get good performance in less time and memory.
+
 
 
 
