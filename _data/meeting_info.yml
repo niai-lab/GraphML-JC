@@ -1,3 +1,15 @@
+- presenter: Miseon Park
+  date: 10.31.2025
+  paper: "In-Context Fine-Tuning for Time-Series Foundation Models"
+  authors: Faw Matthew et al
+  url: https://openreview.net/forum?id=uxzgGLWPj2
+  location: "산학기술관 702-1"
+  summary: >
+    Summary : 이 논문은 여러 관련 시계열 데이터를 추론 시점에서 컨텍스트로 제공함으로써, 파라미터 업데이트 없이 모델이 새로운 도메인에 적응하도록 하는 In-Context Fine-Tuning 방법을 제안한다<br>
+    Strength : 추가적인 학습 과정 없이도 TSFM의 핵심 장점인 zero-shot forecasting 능력을 그대로 활용할 수 있다.<br>
+    Weakness : context 선택에 대한 매커니즘의 한계가 있으며, context에 따른 성능 차이가 존재한다. 
+
+
 - presenter: SeungWon Yu
   date: 10.24.2025
   paper: "Dynamic Neural Relational Inference"
@@ -969,6 +981,7 @@
     So this paper suggests featrue extractor at first layer with several geometric priors. (target postion, source position, relative postion, euclidean distance)
     
     By using feature extractor and simplifed DGCNN, we could get good performance in less time and memory.
+
 
 
 
