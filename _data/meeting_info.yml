@@ -1,4 +1,4 @@
--presenter: Eunjung Kim 
+- presenter: Eunjung Kim 
   date: 11.21.2025
   paper: “Self-Supervised Discovery of Neural Circuits in Spatially Patterned Neural Responses with Graph Neural Networks”
   authors: Kijung Yoon
@@ -1002,6 +1002,7 @@
     So this paper suggests featrue extractor at first layer with several geometric priors. (target postion, source position, relative postion, euclidean distance)
     
     By using feature extractor and simplifed DGCNN, we could get good performance in less time and memory.
+
 
 
 
