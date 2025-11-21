@@ -7,7 +7,7 @@
   summary: >
     Summary :  구조 학습과 스파이크 예측 기능을 특화한 네트워크 모듈을 활용해 신경 회로의 잠재 연결성을 안정적으로 추론할 수 있는 자기지도 학습 프레임워크를 제안함 <br>
     Strength :  현실 신경계에서 발생하는 부분관측, 외부입력, 다양한 상관구조 등을 반영한 실험 전반에서 해당 모델의 우수성을 증명했다 <br>
-    Weakness :  스파이크 패턴은 구조와 동역학이 복합적으로 작용한 결과라, 동일한 패턴을 만들수 있는 연결성이 여러 개 존재할 수 있어 구조추론의 유일성이 보장되지 않는다. 따라서 해당 논문에서 추론된 구조는 가능한 설명 중 하나일뿐, 실제 회로를 완전히 규정하는 단일 해로 보기는 어렵다 <br>
+    Weakness :  스파이크 패턴은 구조와 동역학이 복합적으로 작용한 결과라, 동일한 패턴을 만들수 있는 연결성이 여러 개 존재할 수 있어 구조추론의 유일성이 보장되지 않는다. 따라서 해당 논문에서 추론된 구조는 가능한 설명 중 하나일뿐, 실제 회로를 완전히 규정하는 단일 해로 보기는 어렵다.
 
 - presenter: Jaeho Yang 
   date: 11.07.2025
@@ -1002,6 +1002,7 @@
     So this paper suggests featrue extractor at first layer with several geometric priors. (target postion, source position, relative postion, euclidean distance)
     
     By using feature extractor and simplifed DGCNN, we could get good performance in less time and memory.
+
 
 
 
