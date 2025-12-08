@@ -1,3 +1,14 @@
+- presenter: Ingyeom Kim
+  date: 12.5.2025
+  paper: "SPACE: Unsupervised Object-Oriented Scene Representation via Spatial Attention and Decomposition"
+  authors: ZhiXuan Lin et al.
+  url: https://arxiv.org/abs/2001.02407
+  location: "산학기술관 702-1"
+  summary: >
+    Summary : 해당 논문은 전경 객체 분할에 강한 Spatial-Decomposition model(SPAIR)과 배경 객체 분할에 강한 Scene-Mixture model(GENESIS)를 모듈 단위로 결합하여 양 측 모두에서 강한 SPACE 모델을 개발 및 제안한다.<br>
+    Strength : Object-centric 모델 연구를 Scene-mixture model과 Spatial-Decomposition model 두 가지 종류로 나누어, 장단점을 비교하고 장점만 취합하는 선택을 하였다. <br>
+    Weakness : 사용한 모듈들이 복잡하고 inductive bias가 과도하게 강하다. 이해가 비직관적이고 latent 생성을 위한 중간 과정이 너무 많다.
+
 - presenter: Eunjung Kim 
   date: 11.21.2025
   paper: “Self-Supervised Discovery of Neural Circuits in Spatially Patterned Neural Responses with Graph Neural Networks”
@@ -1002,6 +1013,7 @@
     So this paper suggests featrue extractor at first layer with several geometric priors. (target postion, source position, relative postion, euclidean distance)
     
     By using feature extractor and simplifed DGCNN, we could get good performance in less time and memory.
+
 
 
 
