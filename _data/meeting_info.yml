@@ -1,5 +1,16 @@
 - presenter: Ingyeom Kim
-  date: 12.5.2025
+  date: 01.09.2026
+  paper: "Episodic and associative memory from spatial scaffolds in the hippocampus"
+  authors: Sarthak Chandra et al.
+  url: https://www.nature.com/articles/s41586-024-08392-y
+  location: "산학기술관 702-1"
+  summary: >
+    Summary : 해당 논문은 Grid cell과 해마 구조에서 영감을 받은 Vector-HaSH 모델을 제안하고 연상 기억 및 공간 정보를 효과적으로 저장하는 점을 확인하였다.<br>
+    Strength : Grid cell 모듈들이 만드는 기하급수적인 고정점을 활용해 많은 양의 기억과 연속 sequence를 매핑하고, 감각 정보와 고정점을 분리시켜 안정성을 확보하고, 무엇보다 해마 용량을 초과해도 hopfield 모델과는 달리 기억 전체가 붕괴하지 않는다. <br>
+    Weakness : 인공지능 모델이라기보단 알고리즘적 뇌구조 구현 모델에 가깝다. 가중치 연결을 위한 발화 패턴 역시 학습으로 찾기 보단 ground truth codebook으로 제공된 모습을 보인다.
+
+- presenter: Ingyeom Kim
+  date: 12.05.2025
   paper: "SPACE: Unsupervised Object-Oriented Scene Representation via Spatial Attention and Decomposition"
   authors: ZhiXuan Lin et al.
   url: https://arxiv.org/abs/2001.02407
@@ -1013,6 +1024,7 @@
     So this paper suggests featrue extractor at first layer with several geometric priors. (target postion, source position, relative postion, euclidean distance)
     
     By using feature extractor and simplifed DGCNN, we could get good performance in less time and memory.
+
 
 
 
